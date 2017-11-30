@@ -12,6 +12,10 @@
         "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/8152ce7786594d8fed9c9395c512888768324e28/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
         "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/layout-v21/notification_action.xml"
     }
