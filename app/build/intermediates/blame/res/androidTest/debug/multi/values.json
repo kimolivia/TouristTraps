@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/.android/build-cache/143903bbe0d38b05094887fa73683985172d2029/output/res/values/values.xml",
+                    "file": "/Users/oliviakim/.android/build-cache/9bd78b33159033c6c80fe60e8e6d193141f30d8d/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

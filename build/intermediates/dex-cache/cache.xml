@@ -3,21 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/oliviakim/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_00beb4ecaefc3a35d3bdf9cd4f3b0f722504ff9c/classes.dex" />
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_3c7caad23a3d3af8b7aa6676fe8438bcf814fc3a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/Users/oliviakim/.android/build-cache/0cf4f11f1960c32fd6715e16190f49c5d436f1df/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="302b01bb72b1986bfde69d41bb91353c662cabfa">
-        <dex dex="/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8d3d20db25202ef9005086e0beae36e9fd79158e/classes.dex" />
+        sha1="aed23c739ad564efb5193b88bc785868f7de878b">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c0d6dad7a23fedd624b83ac12229061103885ce8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.android/build-cache/1e53615eee18842f6d1a683da6550c25e2727d43/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_774438a51b0bb4257985f21d454bf4bcbd55de2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/3.0.0/32a01bbb8cb421b6d53d7a102412142b0391c8c7/realm-annotations-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="32a01bbb8cb421b6d53d7a102412142b0391c8c7">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-3.0.0_291b73154e215c4c52a86100433d557db65ea877/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_85ac988194ec91150d7fc1e6bc57656285c70313/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_344446c88bf8fa2f1dee141702cb6647433adff3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.android/build-cache/ce48d3b8c96eb97d6e32be67c35abb2741054145/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71959c4b907ed5c37acf82294cc621b2a193db81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_d5aa533a4169949b00870c5ccb078e935c84ca99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/oliviakim/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_bed762b2fa1a40df9e3f1b1847aea966e37da4f6/classes.dex" />
     </item>
 
 </items>
