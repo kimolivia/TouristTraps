@@ -8,11 +8,27 @@
         "source": "/Users/oliviakim/.android/build-cache/5e992bbee42e68e7a7304e8926ffdc8a5f9ae7e2/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/0b068f224abed7add77bd5a18682bb6cdc20e0da/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/0b068f224abed7add77bd5a18682bb6cdc20e0da/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/0b068f224abed7add77bd5a18682bb6cdc20e0da/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
         "source": "/Users/oliviakim/.android/build-cache/5e992bbee42e68e7a7304e8926ffdc8a5f9ae7e2/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
         "source": "/Users/oliviakim/.android/build-cache/5e992bbee42e68e7a7304e8926ffdc8a5f9ae7e2/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/0b068f224abed7add77bd5a18682bb6cdc20e0da/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
     }
 ]

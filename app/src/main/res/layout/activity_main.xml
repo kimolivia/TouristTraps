@@ -50,8 +50,9 @@
         <fragment
             android:name="com.google.android.gms.maps.MapFragment"
             android:id="@+id/mainPageMap"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="220dp"
             android:layout_alignParentBottom="true"/>
 
         <EditText

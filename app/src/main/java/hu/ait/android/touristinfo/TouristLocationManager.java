@@ -5,23 +5,25 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.util.Log;
+
 /**
  * Created by zhaozhaoxia on 11/30/17.
  */
 
 public class TouristLocationManager implements LocationListener{
-    public interface OnNewLocationAvailable {
-        public void newLocationAvailable(Location location);
+    public interface NewLocationListener {
+        public void onNewLocation(Location location);
     }
 
-    private OnNewLocationAvailable onNewLocationAvailable;
+    private NewLocationListener newLocationListener;
     private Context context;
     private LocationManager locationManager;
 
     public TouristLocationManager(Context context,
-                              OnNewLocationAvailable onNewLocationAvailable) {
+                                  NewLocationListener newLocationListener) {
         this.context = context;
-        this.onNewLocationAvailable = onNewLocationAvailable;
+        this.newLocationListener = newLocationListener;
     }
 
     public void startLocationMonitoring() throws SecurityException {
@@ -43,7 +45,8 @@ public class TouristLocationManager implements LocationListener{
 
     @Override
     public void onLocationChanged(Location location) {
-        onNewLocationAvailable.newLocationAvailable(location);
+        Log.d("aaaa","abc");
+        newLocationListener.onNewLocation(location);
     }
 
     @Override

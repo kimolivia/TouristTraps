@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/res/layout-v16/notification_template_custom_big.xml"
     }
