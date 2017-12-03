@@ -21,6 +21,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.places.Places;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -29,9 +31,9 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity
-    implements TouristLocationManager.NewLocationListener, OnMapReadyCallback {
+    implements OnMapReadyCallback {
 
-    private TouristLocationManager touristLocationManager;
+
     private double currentLongitude;
     private double currentLatitude;
     private DrawerLayout drawerLayout;
@@ -41,9 +43,16 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        touristLocationManager = new TouristLocationManager(this,this);
-
         requestNeededPermission();
+
+        // Construct a GeoDataClient.
+        mGeoDataClient = Places.getGeoDataClient(this, null);
+
+        // Construct a PlaceDetectionClient.
+        mPlaceDetectionClient = Places.getPlaceDetectionClient(this, null);
+
+        // Construct a FusedLocationProviderClient.
+        mFusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.mainPageMap);
@@ -120,7 +129,7 @@ public class MainActivity extends AppCompatActivity
                     101);
         } else {
             // start our job
-            touristLocationManager.startLocationMonitoring();
+
         }
     }
 
@@ -133,7 +142,7 @@ public class MainActivity extends AppCompatActivity
                 Toast.makeText(this, "Permission granted", Toast.LENGTH_SHORT).show();
 
                 // start our job
-                touristLocationManager.startLocationMonitoring();
+
             } else {
                 Toast.makeText(this, "Permission not granted :(", Toast.LENGTH_SHORT).show();
             }
@@ -142,16 +151,11 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onDestroy() {
-        touristLocationManager.stopLocationMonitoring();
+
         super.onDestroy();
     }
 
-    @Override
-    public void onNewLocation(Location location) {
-        currentLongitude = location.getLongitude();
-        currentLatitude = location.getLatitude();
-        Log.d("abcd",Double.toString(currentLatitude));
-    }
+
 
     @Override
     public void onMapReady(GoogleMap googleMap) {

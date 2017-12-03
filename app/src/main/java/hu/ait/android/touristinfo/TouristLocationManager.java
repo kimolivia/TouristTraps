@@ -45,7 +45,6 @@ public class TouristLocationManager implements LocationListener{
 
     @Override
     public void onLocationChanged(Location location) {
-        Log.d("aaaa","abc");
         newLocationListener.onNewLocation(location);
     }
 
