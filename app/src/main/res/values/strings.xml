@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TouristInfo</string>
     <string name="tourist_traps">Tourist Traps</string>
+    <string name="home">Home</string>
+    <string name="enter_a_city">Enter a city</string>
+    <string name="go">Go</string>
+    <string name="creators">This app was created by Megan Zhao and Olivia Kim</string>
 </resources>

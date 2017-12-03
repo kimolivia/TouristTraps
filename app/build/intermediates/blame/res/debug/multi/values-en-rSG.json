@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+        "outputFile": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/Users/zhaozhaoxia/.android/build-cache/5d62336175abbb331e3a9347a04d1ce63a439102/output/res/values-en-rSG/values.xml",
+                    "file": "/Users/oliviakim/.android/build-cache/1b19d035be8eec07a30345ea84c2e421d595b4f5/output/res/values-en-rSG/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

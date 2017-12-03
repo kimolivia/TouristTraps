@@ -1,14 +1,23 @@
 package hu.ait.android.touristinfo;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -18,12 +27,14 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MainActivity extends FragmentActivity
+public class MainActivity extends AppCompatActivity
     implements TouristLocationManager.OnNewLocationAvailable, OnMapReadyCallback {
 
     private TouristLocationManager touristLocationManager;
     private double currentLongitude;
     private double currentLatitude;
+    private DrawerLayout drawerLayout;
+
 
 
     @Override
@@ -38,6 +49,65 @@ public class MainActivity extends FragmentActivity
         MapFragment mapFragment = (MapFragment) getFragmentManager()
                 .findFragmentById(R.id.mainPageMap);
         mapFragment.getMapAsync(this);
+
+        setUpDrawer();
+        setUpToolBar();
+    }
+
+    private void setUpToolBar() {
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //myToolbar.setNavigationIcon(R.drawable.smallglobe);
+        myToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
+    }
+
+    private void setUpDrawer() {
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        NavigationView navigationView
+                = (NavigationView) findViewById(R.id.navigationView);
+        navigationView.bringToFront();
+        navigationView.setItemIconTintList(null);
+
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        menuItem.setChecked(true);
+                        switch (menuItem.getItemId()) {
+                            case R.id.action_seeAgenda:
+                                Intent intent = new Intent();
+                                intent.setClass(MainActivity.this, MyAgenda.class);
+                                startActivity(intent);
+
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                break;
+                            case R.id.action_help:
+                                Toast.makeText(MainActivity.this,
+                                        "1"
+                                        ,
+                                        Toast.LENGTH_LONG
+                                ).show();
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                break;
+                            case R.id.action_about:
+                                Toast.makeText(MainActivity.this,
+                                        R.string.creators
+                                        ,
+                                        Toast.LENGTH_LONG
+                                ).show();
+                                drawerLayout.closeDrawer(GravityCompat.START);
+                                break;
+                        }
+                        return false;
+                    }
+                });
     }
 
     private void requestNeededPermission() {
