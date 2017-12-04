@@ -3,6 +3,8 @@ package hu.ait.android.touristinfo;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationManager;
 import android.support.annotation.NonNull;
@@ -30,6 +32,10 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity
     implements TouristLocationManager.NewLocationListener, OnMapReadyCallback {
@@ -148,7 +154,6 @@ public class MainActivity extends AppCompatActivity
         super.onDestroy();
     }
 
-
     @Override
     public void onNewLocation(Location location) {
         LatLng currentLocation = new LatLng(location.getLatitude(),location.getLongitude());
@@ -159,7 +164,7 @@ public class MainActivity extends AppCompatActivity
                                 .snippet("Drag the marker to the city you want to go")
                 );
 
-        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 3.0f) );
+        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 6.0f) );
 
         marker.setDraggable(true);
         mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
@@ -175,10 +180,20 @@ public class MainActivity extends AppCompatActivity
 
             @Override
             public void onMarkerDragEnd(Marker marker) {
-//                Toast.makeText(MainActivity.this,
-//                        "You set location to: " +
-//                        marker.getPosition().toString(),To)
-                mMap.animateCamera(CameraUpdateFactory.newLatLng(marker.getPosition()));
+                LatLng dragToLocation = marker.getPosition();
+//                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
+//                List<Address> addresses = null;
+//                try {
+//                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//                if (addresses.size() > 0){
+//                    Toast.makeText(MainActivity.this,
+//                            "You set location to: " +
+//                                    addresses.get(0).getLocality(), Toast.LENGTH_SHORT).show();
+//                }
+                mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
             }
         });
     }
@@ -187,6 +202,4 @@ public class MainActivity extends AppCompatActivity
     public void onMapReady(final GoogleMap googleMap) {
         mMap = googleMap;
     }
-
-
 }
