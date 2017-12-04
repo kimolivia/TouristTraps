@@ -1,4 +1,4 @@
-#Sun Dec 03 18:39:28 CET 2017
+#Mon Dec 04 10:57:58 CET 2017
 base.0=/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
 renamed.0=classes.dex
 file.0=/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

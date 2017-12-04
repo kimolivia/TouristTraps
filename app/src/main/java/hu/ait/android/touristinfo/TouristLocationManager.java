@@ -29,9 +29,11 @@ public class TouristLocationManager implements LocationListener{
     public void startLocationMonitoring() throws SecurityException {
         locationManager =
                 (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
-
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
                 0, 0, this);
+
+        //Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
 
         // DOES NOT WORK ON EMULATOR
         //locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
@@ -47,6 +49,7 @@ public class TouristLocationManager implements LocationListener{
     public void onLocationChanged(Location location) {
         newLocationListener.onNewLocation(location);
     }
+
 
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {

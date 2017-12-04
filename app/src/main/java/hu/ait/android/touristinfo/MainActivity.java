@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
+import android.location.LocationManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -25,15 +26,16 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity
     implements TouristLocationManager.NewLocationListener, OnMapReadyCallback {
 
     private TouristLocationManager touristLocationManager;
-    private double currentLongitude;
-    private double currentLatitude;
+    private GoogleMap mMap;
     private DrawerLayout drawerLayout;
 
     @Override
@@ -146,18 +148,45 @@ public class MainActivity extends AppCompatActivity
         super.onDestroy();
     }
 
+
     @Override
     public void onNewLocation(Location location) {
-        currentLongitude = location.getLongitude();
-        currentLatitude = location.getLatitude();
+        LatLng currentLocation = new LatLng(location.getLatitude(),location.getLongitude());
+        Marker marker =
+                mMap.addMarker(new MarkerOptions()
+                                .position(currentLocation)
+                                .title("Current Location")
+                                .snippet("Drag the marker to the city you want to go")
+                );
+
+        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 3.0f) );
+
+        marker.setDraggable(true);
+        mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
+            @Override
+            public void onMarkerDragStart(Marker marker) {
+
+            }
+
+            @Override
+            public void onMarkerDrag(Marker marker) {
+
+            }
+
+            @Override
+            public void onMarkerDragEnd(Marker marker) {
+//                Toast.makeText(MainActivity.this,
+//                        "You set location to: " +
+//                        marker.getPosition().toString(),To)
+                mMap.animateCamera(CameraUpdateFactory.newLatLng(marker.getPosition()));
+            }
+        });
     }
 
     @Override
-    public void onMapReady(GoogleMap googleMap) {
-        LatLng currentLocation = new LatLng(currentLatitude,currentLongitude);
-        googleMap.addMarker(new MarkerOptions()
-                .position(currentLocation)
-                .title("current location"));
-        googleMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 3.0f) );
+    public void onMapReady(final GoogleMap googleMap) {
+        mMap = googleMap;
     }
+
+
 }
