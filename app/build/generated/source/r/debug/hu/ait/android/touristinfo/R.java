@@ -4934,7 +4934,7 @@ containing a value of this type.
         public static final int end_text=0x7f1000ee;
         public static final int enterAlways=0x7f10003c;
         public static final int enterAlwaysCollapsed=0x7f10003d;
-        public static final int etSearch=0x7f1000e0;
+        public static final int etSearch=0x7f1000df;
         public static final int exitUntilCollapsed=0x7f10003e;
         public static final int expand_activities_button=0x7f1000ad;
         public static final int expanded_controller_layout=0x7f1000e1;
@@ -4986,7 +4986,7 @@ containing a value of this type.
         public static final int live_stream_seek_bar=0x7f1000f1;
         public static final int loading_indicator=0x7f1000ea;
         public static final int logo_only=0x7f10009e;
-        public static final int mainPageMap=0x7f1000df;
+        public static final int mainPageMap=0x7f1000e0;
         public static final int masked=0x7f10014b;
         public static final int match_global_nicknames=0x7f100087;
         public static final int match_parent=0x7f100097;

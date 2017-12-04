@@ -1419,7 +1419,7 @@ int id end_padder 0x7f10013d
 int id end_text 0x7f1000ee
 int id enterAlways 0x7f10003c
 int id enterAlwaysCollapsed 0x7f10003d
-int id etSearch 0x7f1000e0
+int id etSearch 0x7f1000df
 int id exitUntilCollapsed 0x7f10003e
 int id expand_activities_button 0x7f1000ad
 int id expanded_controller_layout 0x7f1000e1
@@ -1471,7 +1471,7 @@ int id live_stream_indicator 0x7f1000ef
 int id live_stream_seek_bar 0x7f1000f1
 int id loading_indicator 0x7f1000ea
 int id logo_only 0x7f10009e
-int id mainPageMap 0x7f1000df
+int id mainPageMap 0x7f1000e0
 int id masked 0x7f10014b
 int id match_global_nicknames 0x7f100087
 int id match_parent 0x7f100097
