@@ -30,7 +30,9 @@ public class TouristLocationManager implements LocationListener{
         locationManager =
                 (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
-                0, 0, this);
+                120, 1000, this);
+
+
 
         //Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
