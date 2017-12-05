@@ -38,8 +38,8 @@ public class TouristLocationManager implements LocationListener{
 
 
         // DOES NOT WORK ON EMULATOR
-        //locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
-        //        0, 0, this);
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
+                120, 1000, this);
     }
 
     public void stopLocationMonitoring() {

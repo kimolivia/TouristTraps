@@ -181,18 +181,24 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onMarkerDragEnd(Marker marker) {
                 LatLng dragToLocation = marker.getPosition();
-//                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
-//                List<Address> addresses = null;
-//                try {
-//                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//                if (addresses.size() > 0){
-//                    Toast.makeText(MainActivity.this,
-//                            "You set location to: " +
-//                                    addresses.get(0).getLocality(), Toast.LENGTH_SHORT).show();
-//                }
+                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
+                List<Address> addresses = null;
+                String cityName = "";
+                try {
+                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                if (addresses != null){
+                    if (addresses.get(0).getLocality() != null)
+                        cityName = addresses.get(0).getLocality();
+                    if (addresses.get(0).getSubAdminArea() != null)
+                        cityName = addresses.get(0).getSubAdminArea();
+                    if (cityName != "")
+                        Toast.makeText(MainActivity.this,
+                                "You set location to: " +
+                                        cityName, Toast.LENGTH_SHORT).show();
+                }
                 mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
             }
         });

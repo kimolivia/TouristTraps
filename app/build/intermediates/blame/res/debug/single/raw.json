@@ -2,5 +2,9 @@
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
         "source": "/Users/oliviakim/.android/build-cache/a3b66550c1b6eb65fdb7b2d0dbd75bf4e25bc3bf/output/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/d4d1f5d22eb58d42cd124dc1a6a549a54b74961f/output/res/raw/gtm_analytics"
     }
 ]
