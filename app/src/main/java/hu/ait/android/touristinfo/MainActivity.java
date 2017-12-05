@@ -37,6 +37,15 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 
+import hu.ait.android.touristinfo.data.businesses.Business;
+import hu.ait.android.touristinfo.data.businesses.BusinessesResult;
+import hu.ait.android.touristinfo.network.BusinessesAPI;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 public class MainActivity extends AppCompatActivity
         implements TouristLocationManager.NewLocationListener, OnMapReadyCallback {
 
@@ -57,8 +66,33 @@ public class MainActivity extends AppCompatActivity
                 .findFragmentById(R.id.mainPageMap);
         mapFragment.getMapAsync(this);
 
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.yelp.com/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+
+        businessesCall(retrofit);
+
         setUpDrawer();
         setUpToolBar();
+    }
+
+    private void businessesCall(Retrofit retrofit) {
+        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("Paris");
+        call.enqueue(new Callback<BusinessesResult>() {
+            @Override
+            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                TextView tv = findViewById(R.id.test);
+                tv.setText(response.body().getBusinesses().get(0).getName());
+            }
+
+            @Override
+            public void onFailure(Call<BusinessesResult> call, Throwable t) {
+                TextView tv = findViewById(R.id.test);
+                tv.setText("fail");
+            }
+        });
     }
 
     private void setUpToolBar() {

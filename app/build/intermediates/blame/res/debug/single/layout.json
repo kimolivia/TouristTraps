@@ -1,23 +1,23 @@
 [
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/8152ce7786594d8fed9c9395c512888768324e28/output/res/layout/place_autocomplete_progress.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/layout/mr_playback_control.xml"
-    },
-    {
         "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/layout/tooltip.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/tooltip.xml"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/layout/mr_playback_control.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
