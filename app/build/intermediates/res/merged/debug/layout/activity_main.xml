@@ -73,7 +73,6 @@
 
         </LinearLayout>
 
-
         <fragment
             android:layout_weight="2.65"
             android:name="com.google.android.gms.maps.MapFragment"

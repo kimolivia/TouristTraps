@@ -1194,6 +1194,7 @@
     <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="tourist_traps">Tourist Traps</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="x">X</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
