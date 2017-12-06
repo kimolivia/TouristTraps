@@ -34,6 +34,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -52,6 +53,8 @@ public class MainActivity extends AppCompatActivity
     private TouristLocationManager touristLocationManager;
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
+    private List<Business>  highRatingBusinessList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +62,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         touristLocationManager = new TouristLocationManager(this,this);
+        highRatingBusinessList = new ArrayList<>();
 
         requestNeededPermission();
 
@@ -71,21 +75,27 @@ public class MainActivity extends AppCompatActivity
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        businessesCall(retrofit);
+        businessesCallWithCityName(retrofit);
 
         setUpDrawer();
         setUpToolBar();
     }
 
-    private void businessesCall(Retrofit retrofit) {
+    private void businessesCallWithCityName(Retrofit retrofit) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("Paris");
+        //if category ==
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("museum","San Francisco");
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                List<Business> businessList = response.body().getBusinesses();
+                for (Business business: businessList){
+                    if (business.getRating() >= 4.4)
+                        highRatingBusinessList.add(business);
+                }
                 TextView tv = findViewById(R.id.test);
-                tv.setText(response.body().getBusinesses().get(0).getCoordinates().getLatitude().toString());
+                tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
             }
 
             @Override
@@ -234,6 +244,7 @@ public class MainActivity extends AppCompatActivity
                                         cityName, Toast.LENGTH_SHORT).show();
                 }
                 mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
+                //ask if user wants the current location being draged to, then api call with coordinate
             }
         });
     }
