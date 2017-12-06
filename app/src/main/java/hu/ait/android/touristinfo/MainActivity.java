@@ -81,16 +81,16 @@ public class MainActivity extends AppCompatActivity
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
         Call<BusinessesResult> call = businessesAPI.getBusinessesResult("Paris");
         call.enqueue(new Callback<BusinessesResult>() {
+
             @Override
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
                 TextView tv = findViewById(R.id.test);
-                tv.setText(response.body().getBusinesses().get(0).getName());
+                tv.setText(response.body().getBusinesses().get(0).getCoordinates().getLatitude().toString());
             }
 
             @Override
             public void onFailure(Call<BusinessesResult> call, Throwable t) {
-                TextView tv = findViewById(R.id.test);
-                tv.setText("fail");
+                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
             }
         });
     }
