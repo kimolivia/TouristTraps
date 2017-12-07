@@ -1,53 +1,53 @@
-package hu.ait.android.touristinfo;
+ package hu.ait.android.touristinfo;
 
-import android.Manifest;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.Location;
-import android.location.LocationManager;
-import android.support.annotation.NonNull;
-import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.FrameLayout;
-import android.widget.TextView;
-import android.widget.Toast;
+    import android.Manifest;
+    import android.content.Intent;
+    import android.content.pm.PackageManager;
+    import android.location.Address;
+    import android.location.Geocoder;
+    import android.location.Location;
+    import android.location.LocationManager;
+    import android.support.annotation.NonNull;
+    import android.support.design.widget.NavigationView;
+    import android.support.design.widget.Snackbar;
+    import android.support.v4.app.ActivityCompat;
+    import android.support.v4.app.FragmentActivity;
+    import android.support.v4.content.ContextCompat;
+    import android.support.v4.view.GravityCompat;
+    import android.support.v4.widget.DrawerLayout;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.support.v7.widget.Toolbar;
+    import android.util.Log;
+    import android.view.MenuItem;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import android.widget.TextView;
+    import android.widget.Toast;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapFragment;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
+    import com.google.android.gms.maps.CameraUpdateFactory;
+    import com.google.android.gms.maps.GoogleMap;
+    import com.google.android.gms.maps.MapFragment;
+    import com.google.android.gms.maps.OnMapReadyCallback;
+    import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+    import com.google.android.gms.maps.model.LatLng;
+    import com.google.android.gms.maps.model.Marker;
+    import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
+    import java.io.IOException;
+    import java.util.ArrayList;
+    import java.util.List;
+    import java.util.Locale;
 
-import hu.ait.android.touristinfo.data.businesses.Business;
-import hu.ait.android.touristinfo.data.businesses.BusinessesResult;
-import hu.ait.android.touristinfo.network.BusinessesAPI;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+    import hu.ait.android.touristinfo.data.businesses.Business;
+    import hu.ait.android.touristinfo.data.businesses.BusinessesResult;
+    import hu.ait.android.touristinfo.network.BusinessesAPI;
+    import retrofit2.Call;
+    import retrofit2.Callback;
+    import retrofit2.Response;
+    import retrofit2.Retrofit;
+    import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity
         implements TouristLocationManager.NewLocationListener, OnMapReadyCallback {
@@ -55,27 +55,17 @@ public class MainActivity extends AppCompatActivity
     private TouristLocationManager touristLocationManager;
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     private List<Business>  highRatingBusinessList;
-    private FrameLayout fragmentContainer;
+    private Retrofit retrofit;
 
-=======
->>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
-=======
->>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
-=======
->>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fragmentContainer = findViewById(R.id.fragmentContainer);
-
         touristLocationManager = new TouristLocationManager(this,this);
+        highRatingBusinessList = new ArrayList<>();
 
         requestNeededPermission();
 
@@ -83,26 +73,39 @@ public class MainActivity extends AppCompatActivity
                 .findFragmentById(R.id.mainPageMap);
         mapFragment.getMapAsync(this);
 
-        Retrofit retrofit = new Retrofit.Builder()
+        retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.yelp.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        businessesCall(retrofit);
+        Button btnEnter = findViewById(R.id.btnEnter);
 
+        btnEnter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String cityName = ((EditText)findViewById(R.id.etSearch)).getText().toString();
+                businessesCallWithCityNameFood(retrofit, cityName);
+            }
+        });
         setUpDrawer();
         setUpToolBar();
     }
 
-    private void businessesCall(Retrofit retrofit) {
+    private void businessesCallWithCityNameFood(Retrofit retrofit, String cityName) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("Paris");
+        //if category ==
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("food", cityName);
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                List<Business> businessList = response.body().getBusinesses();
+                for (Business business: businessList){
+                    if (business.getRating() >= 4.4)
+                        highRatingBusinessList.add(business);
+                }
                 TextView tv = findViewById(R.id.test);
-                tv.setText(response.body().getBusinesses().get(0).getCoordinates().getLatitude().toString());
+                tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
             }
 
             @Override
@@ -112,6 +115,57 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
+//    private void businessesCallWithCityNameMuseum(Retrofit retrofit, String cityName) {
+//        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+//        //if category ==
+//        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("museum", cityName);
+//        call.enqueue(new Callback<BusinessesResult>() {
+//
+//            @Override
+//            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+//                List<Business> businessList = response.body().getBusinesses();
+//                for (Business business: businessList){
+//                    if (business.getRating() >= 4.4)
+//                        highRatingBusinessList.add(business);
+//                }
+//                TextView tv = findViewById(R.id.test);
+//                tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
+//            }
+//
+//            @Override
+//            public void onFailure(Call<BusinessesResult> call, Throwable t) {
+//                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+//            }
+//        });
+//    }
+
+    private void businessesCallWithCoord(Retrofit retrofit, Double latitude, Double longitude) {
+        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+        //if category ==
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResultCoord("food", latitude, longitude, 10000);
+        call.enqueue(new Callback<BusinessesResult>() {
+
+            @Override
+            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                List<Business> businessList = response.body().getBusinesses();
+                for (Business business: businessList){
+                    if (business.getRating() >= 4.4)
+                        highRatingBusinessList.add(business);
+                }
+                TextView tv = findViewById(R.id.test);
+                if (businessList.size() != 0){
+                    tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
+                } else {
+                    tv.setText("Can't get current location");
+                }
+            }
+
+            @Override
+            public void onFailure(Call<BusinessesResult> call, Throwable t) {
+                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+            }
+        });
+    }
 
     @Override
     public void onNewLocation(Location location) {
@@ -124,6 +178,8 @@ public class MainActivity extends AppCompatActivity
                 );
 
         mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 6.0f) );
+
+        //businessesCallWithCoord(retrofit, location.getLatitude(), location.getLongitude());
 
         marker.setDraggable(true);
         mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
@@ -163,33 +219,6 @@ public class MainActivity extends AppCompatActivity
             }
         });
     }
-
-    public void showFragment(String fragmentTag) {
-        Fragment newFragment = getSupportFragmentManager().findFragmentByTag(fragmentTag);
-
-        if (newFragment == null){
-            switch (fragmentTag){
-                case FragmentImport.TAG:
-                    break;
-                //case
-                //break;
-                default:
-                    break;
-            }
-        }
-
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        //ft.addToBackStack("stack"); probably not used here
-        ft.replace(R.id.layoutContainer, newFragment, fragmentTag);
-
-        ft.commit();
-    }
-
-    @Override
-    public void onMapReady(final GoogleMap googleMap) {
-        mMap = googleMap;
-    }
-
 
     private void setUpToolBar() {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
@@ -284,38 +313,8 @@ public class MainActivity extends AppCompatActivity
         super.onDestroy();
     }
 
-
-
-
-<<<<<<< HEAD
-=======
-            }
-
-            @Override
-            public void onMarkerDragEnd(Marker marker) {
-                LatLng dragToLocation = marker.getPosition();
-                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
-                List<Address> addresses = null;
-                String cityName = "";
-                try {
-                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                if (addresses != null){
-                    if (addresses.get(0).getLocality() != null)
-                        cityName = addresses.get(0).getLocality();
-                    if (addresses.get(0).getSubAdminArea() != null)
-                        cityName = addresses.get(0).getSubAdminArea();
-                    if (cityName != "")
-                        Toast.makeText(MainActivity.this,
-                                "You set location to: " +
-                                        cityName, Toast.LENGTH_SHORT).show();
-                }
-                mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
-            }
-        });
+    @Override
+    public void onMapReady(final GoogleMap googleMap) {
+        mMap = googleMap;
     }
->>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
-
 }

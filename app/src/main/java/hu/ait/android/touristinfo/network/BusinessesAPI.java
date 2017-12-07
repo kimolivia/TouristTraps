@@ -16,4 +16,13 @@ public interface BusinessesAPI {
     @GET("v3/businesses/search")
     Call<BusinessesResult> getBusinessesResult(
                                                @Query("term") String category,@Query("location") String location);
+
+    @Headers("Authorization: Bearer 9GQa-MTm1gfDFJZST93za3BsiS2S4K0WC0vIbeAouS4zFi1qYxZFdrhv_1ZzV7UQc01DDxCwYdzEjupFS0CK1OCSdZESjHqNclIR8kkCvlD7qVRYXiwQEMfjGcYmWnYx")
+    @GET("v3/businesses/search")
+    Call<BusinessesResult> getBusinessesResultCoord(
+            @Query("term") String category,
+            @Query("latitude") Double latitude,
+            @Query("longitude") Double longitude,
+            @Query("radius") int radius);
+
 }
