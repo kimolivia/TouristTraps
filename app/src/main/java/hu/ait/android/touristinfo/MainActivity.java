@@ -56,9 +56,12 @@ public class MainActivity extends AppCompatActivity
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private List<Business>  highRatingBusinessList;
     private FrameLayout fragmentContainer;
 
+=======
+>>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
 =======
 >>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
 
