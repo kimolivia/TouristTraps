@@ -37,7 +37,6 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -56,9 +55,12 @@ public class MainActivity extends AppCompatActivity
     private TouristLocationManager touristLocationManager;
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
+<<<<<<< HEAD
     private List<Business>  highRatingBusinessList;
     private FrameLayout fragmentContainer;
 
+=======
+>>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +70,6 @@ public class MainActivity extends AppCompatActivity
         fragmentContainer = findViewById(R.id.fragmentContainer);
 
         touristLocationManager = new TouristLocationManager(this,this);
-        highRatingBusinessList = new ArrayList<>();
 
         requestNeededPermission();
 
@@ -81,27 +82,21 @@ public class MainActivity extends AppCompatActivity
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        businessesCallWithCityName(retrofit);
+        businessesCall(retrofit);
 
         setUpDrawer();
         setUpToolBar();
     }
 
-    private void businessesCallWithCityName(Retrofit retrofit) {
+    private void businessesCall(Retrofit retrofit) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-        //if category ==
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("museum","San Francisco");
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("Paris");
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
-                List<Business> businessList = response.body().getBusinesses();
-                for (Business business: businessList){
-                    if (business.getRating() >= 4.4)
-                        highRatingBusinessList.add(business);
-                }
                 TextView tv = findViewById(R.id.test);
-                tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
+                tv.setText(response.body().getBusinesses().get(0).getCoordinates().getLatitude().toString());
             }
 
             @Override
@@ -286,5 +281,35 @@ public class MainActivity extends AppCompatActivity
 
 
 
+<<<<<<< HEAD
+=======
+            }
+
+            @Override
+            public void onMarkerDragEnd(Marker marker) {
+                LatLng dragToLocation = marker.getPosition();
+                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
+                List<Address> addresses = null;
+                String cityName = "";
+                try {
+                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                if (addresses != null){
+                    if (addresses.get(0).getLocality() != null)
+                        cityName = addresses.get(0).getLocality();
+                    if (addresses.get(0).getSubAdminArea() != null)
+                        cityName = addresses.get(0).getSubAdminArea();
+                    if (cityName != "")
+                        Toast.makeText(MainActivity.this,
+                                "You set location to: " +
+                                        cityName, Toast.LENGTH_SHORT).show();
+                }
+                mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
+            }
+        });
+    }
+>>>>>>> parent of 32fcd11... completed API call with best sights/restaurants in different categories
 
 }
