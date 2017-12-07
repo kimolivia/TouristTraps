@@ -11,7 +11,9 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -21,6 +23,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -54,12 +57,15 @@ public class MainActivity extends AppCompatActivity
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
     private List<Business>  highRatingBusinessList;
+    private FrameLayout fragmentContainer;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        fragmentContainer = findViewById(R.id.fragmentContainer);
 
         touristLocationManager = new TouristLocationManager(this,this);
         highRatingBusinessList = new ArrayList<>();
@@ -104,6 +110,85 @@ public class MainActivity extends AppCompatActivity
             }
         });
     }
+
+
+    @Override
+    public void onNewLocation(Location location) {
+        LatLng currentLocation = new LatLng(location.getLatitude(),location.getLongitude());
+        Marker marker =
+                mMap.addMarker(new MarkerOptions()
+                        .position(currentLocation)
+                        .title("Current Location")
+                        .snippet("Drag the marker to the city you want to go")
+                );
+
+        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 6.0f) );
+
+        marker.setDraggable(true);
+        mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
+            @Override
+            public void onMarkerDragStart(Marker marker) {
+
+            }
+
+            @Override
+            public void onMarkerDrag(Marker marker) {
+
+            }
+
+            @Override
+            public void onMarkerDragEnd(Marker marker) {
+                LatLng dragToLocation = marker.getPosition();
+                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
+                List<Address> addresses = null;
+                String cityName = "";
+                try {
+                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                if (addresses != null){
+                    if (addresses.get(0).getLocality() != null)
+                        cityName = addresses.get(0).getLocality();
+                    if (addresses.get(0).getSubAdminArea() != null)
+                        cityName = addresses.get(0).getSubAdminArea();
+                    if (cityName != "")
+                        Toast.makeText(MainActivity.this,
+                                "You set location to: " +
+                                        cityName, Toast.LENGTH_SHORT).show();
+                }
+                mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
+                //ask if user wants the current location being draged to, then api call with coordinate
+            }
+        });
+    }
+
+    public void showFragment(String fragmentTag) {
+        Fragment newFragment = getSupportFragmentManager().findFragmentByTag(fragmentTag);
+
+        if (newFragment == null){
+            switch (fragmentTag){
+                case FragmentImport.TAG:
+                    break;
+                //case
+                //break;
+                default:
+                    break;
+            }
+        }
+
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        //ft.addToBackStack("stack"); probably not used here
+        ft.replace(R.id.layoutContainer, newFragment, fragmentTag);
+
+        ft.commit();
+    }
+
+    @Override
+    public void onMapReady(final GoogleMap googleMap) {
+        mMap = googleMap;
+    }
+
 
     private void setUpToolBar() {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
@@ -198,59 +283,8 @@ public class MainActivity extends AppCompatActivity
         super.onDestroy();
     }
 
-    @Override
-    public void onNewLocation(Location location) {
-        LatLng currentLocation = new LatLng(location.getLatitude(),location.getLongitude());
-        Marker marker =
-                mMap.addMarker(new MarkerOptions()
-                        .position(currentLocation)
-                        .title("Current Location")
-                        .snippet("Drag the marker to the city you want to go")
-                );
 
-        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 6.0f) );
 
-        marker.setDraggable(true);
-        mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
-            @Override
-            public void onMarkerDragStart(Marker marker) {
 
-            }
 
-            @Override
-            public void onMarkerDrag(Marker marker) {
-
-            }
-
-            @Override
-            public void onMarkerDragEnd(Marker marker) {
-                LatLng dragToLocation = marker.getPosition();
-                Geocoder gcd = new Geocoder(MainActivity.this, Locale.getDefault());
-                List<Address> addresses = null;
-                String cityName = "";
-                try {
-                    addresses = gcd.getFromLocation(dragToLocation.latitude, dragToLocation.longitude, 1);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                if (addresses != null){
-                    if (addresses.get(0).getLocality() != null)
-                        cityName = addresses.get(0).getLocality();
-                    if (addresses.get(0).getSubAdminArea() != null)
-                        cityName = addresses.get(0).getSubAdminArea();
-                    if (cityName != "")
-                        Toast.makeText(MainActivity.this,
-                                "You set location to: " +
-                                        cityName, Toast.LENGTH_SHORT).show();
-                }
-                mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
-                //ask if user wants the current location being draged to, then api call with coordinate
-            }
-        });
-    }
-
-    @Override
-    public void onMapReady(final GoogleMap googleMap) {
-        mMap = googleMap;
-    }
 }
