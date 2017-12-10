@@ -1,5 +1,6 @@
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
@@ -69,13 +70,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <Button
+            <mehdi.sakout.fancybuttons.FancyButton
                 android:id="@+id/btnEnter"
+                fancy:fb_text="Go"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/go"
-                android:layout_gravity="center_vertical"
-                />
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                fancy:fb_radius="20dp"
+                fancy:fb_defaultColor="#7ab800"
+                fancy:fb_textColor="#FFFFFF"/>
 
         </LinearLayout>
 

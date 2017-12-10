@@ -37,12 +37,17 @@
 
     import java.io.IOException;
     import java.util.ArrayList;
+    import java.util.Arrays;
     import java.util.List;
     import java.util.Locale;
 
+    import hu.ait.android.touristinfo.data.Sights;
     import hu.ait.android.touristinfo.data.businesses.Business;
     import hu.ait.android.touristinfo.data.businesses.BusinessesResult;
     import hu.ait.android.touristinfo.network.BusinessesAPI;
+    import io.realm.Realm;
+    import io.realm.RealmResults;
+    import mehdi.sakout.fancybuttons.FancyButton;
     import retrofit2.Call;
     import retrofit2.Callback;
     import retrofit2.Response;
@@ -57,12 +62,15 @@ public class MainActivity extends AppCompatActivity
     private DrawerLayout drawerLayout;
     private List<Business>  highRatingBusinessList;
     private Retrofit retrofit;
+    List<Sights> sightsResult;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ((MainApplication) getApplication()).openRealm();
 
         touristLocationManager = new TouristLocationManager(this,this);
         highRatingBusinessList = new ArrayList<>();
@@ -78,7 +86,7 @@ public class MainActivity extends AppCompatActivity
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        Button btnEnter = findViewById(R.id.btnEnter);
+        FancyButton btnEnter = findViewById(R.id.btnEnter);
 
         btnEnter.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -307,10 +315,28 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    private void setUpRealmItems() {
+        RealmResults<Sights> allCities = getRealm().where(Sights.class).findAll();
+        Sights itemsArray[] = new Sights[allCities.size()];
+        sightsResult = new ArrayList<Sights>(Arrays.asList(allCities.toArray(itemsArray)));
+    }
+
+    public Realm getRealm() {
+        return ((MainApplication) getApplication()).getRealmSights();
+    }
+
+    public void deleteSight(Sights sight) {
+        getRealm().beginTransaction();
+        sight.deleteFromRealm();
+        getRealm().commitTransaction();
+
+    }
+
     @Override
     protected void onDestroy() {
         touristLocationManager.stopLocationMonitoring();
         super.onDestroy();
+        ((MainApplication)getApplication()).closeRealm();
     }
 
     @Override

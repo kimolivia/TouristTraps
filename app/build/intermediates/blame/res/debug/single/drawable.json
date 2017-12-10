@@ -1,75 +1,39 @@
 [
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_dialog_material_background_dark.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
         "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_on_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_mute.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_skip_prev.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_rewind.xml"
     },
     {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_pause.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_cast_dark.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_pause.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_skip_prev.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_connecting_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/ic_collapse.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_mini_controller_gradient_light.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_skip_next.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_mini_controller_progress_drawable.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
@@ -80,32 +44,16 @@
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_skip_ad_label_border.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_play_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/tooltip_frame_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
@@ -116,16 +64,8 @@
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_mono_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_dialog_material_background_dark.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -136,128 +76,72 @@
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_play.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_password_eye.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_forward10.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_stop.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_dialog_material_background_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/tooltip_frame_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_dialog_material_background_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_mono_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_rewind10.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_play_large.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_stop.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_on_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_disconnect.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_mute.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
         "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_stop.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_mini_controller_gradient_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_close_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_track.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_expanded_controller_seekbar_track.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/Users/oliviakim/.android/build-cache/05656090327519226c7b39ead4c8384f8ed983dc/output/res/drawable/cast_ic_notification_connecting.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_clear_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
@@ -268,24 +152,24 @@
         "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_audiotrack_light.xml"
     },
     {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_rewind10.xml"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_pause.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_pause.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_bg_gradient_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
         "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_forward30.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
@@ -296,10 +180,6 @@
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
@@ -308,40 +188,24 @@
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_play_dark.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/city_icon.png",
-        "source": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/res/drawable/city_icon.png"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_on_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_forward10.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
@@ -356,28 +220,48 @@
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
     },
     {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
         "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_skip_ad_label_border.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_on_light.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_skip_next.xml"
     },
     {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
@@ -388,730 +272,6 @@
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_on_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_audiotrack_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_pause.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_play.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_track.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_seekbar_track.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_bg_gradient_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_skip_prev.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_cast_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/ic_collapse.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_mute.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_pause.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_rewind10.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/city_icon.png",
-        "source": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/src/main/res/drawable/city_icon.png"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_rewind.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_play_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_play.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_pause_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_play.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_small_icon.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_pause_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_pause.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_small_icon.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_close_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_pause_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_play_large.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_cast_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_stop.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_forward.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_forward10.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_mini_controller_progress_drawable.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_rewind30.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_mono_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/4b21d5410166452a1f680c9e56308a0e7e484029/output/res/drawable/cast_ic_notification_connecting.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_small_icon.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_pause.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_pause.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_skip_prev.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/ic_collapse.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_close_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_pause_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_connecting_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/ic_expand.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_play.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_play.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_audiotrack_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_close_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_vector_test.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_forward10.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_forward30.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/tooltip_frame_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_connecting_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_mute.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_forward.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_cast_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_pause_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_rewind30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_rewind.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/tooltip_frame_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
-        "source": "/Users/oliviakim/.android/build-cache/05656090327519226c7b39ead4c8384f8ed983dc/output/res/drawable/cast_ic_notification_connecting.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_cast_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_rewind10.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_on_dark.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_forward30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_play.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_skip_ad_label_border.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_play_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/4b21d5410166452a1f680c9e56308a0e7e484029/output/res/drawable/cast_ic_notification_connecting.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/ic_collapse.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_snackbar_background.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_play_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_mute.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_pause.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_pause.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_on_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
-        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
-        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_cast_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_mute.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/design_snackbar_background.xml"
     },
@@ -1120,20 +280,8 @@
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_pause.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_pause.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_stop.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_track.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_expanded_controller_seekbar_track.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
@@ -1148,64 +296,44 @@
         "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/design_password_eye.xml"
     },
     {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/design_fab_background.xml"
+    },
+    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_disconnect.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_skip_next.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_play_large.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_cast_dark.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/city_icon.png",
         "source": "/Users/oliviakim/Documents/TouristInfo/app/src/main/res/drawable/city_icon.png"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_rewind30.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
@@ -1216,12 +344,8 @@
         "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
@@ -1232,151 +356,107 @@
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_stop.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_play_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_play.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_small_icon.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_play.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
         "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/228e6efe26e263806fbde27b06cf5736c467ef06/output/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_forward30.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_close_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_play.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/18ae3a26fbc098681f6a68caab4584cadfc51a6d/output/res/drawable/navigation_empty_icon.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/25984131ccb5c0cc0def55d3f0c2d4436aff11be/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_close_light.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
         "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_play_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
         "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/ic_expand.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_mono_dark.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/392ec1a53473d113e3cd436846ed8ab3ecea6928/output/res/drawable/mr_ic_media_route_mono_light.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
+        "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_ic_notification_forward.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
         "source": "/Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/res/drawable/cast_mini_controller_progress_drawable.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_forward.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/res/drawable/mr_ic_media_route_mono_light.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_notification_disconnect.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_mute.xml"
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/83e91dc7b1c341438328003215a687cb59e5db4e/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     }
 ]

@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import hu.ait.android.touristinfo.MainActivity;
 import hu.ait.android.touristinfo.R;
 import hu.ait.android.touristinfo.data.Sights;
 import io.realm.Realm;
@@ -25,7 +26,6 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
 
     private Context context;
     private Realm realmSights;
-
     private List<Sights> sightsList;
 
     public AgendaAdapter() {
@@ -53,8 +53,18 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(final ViewHolder holder, int position) {
         Sights sightData = sightsList.get(position);
+        //holder.tvSight.setText("Get API name here");
+
+        /*
+        holder.btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                removeSight(holder.getAdapterPosition());
+            }
+        });
+        */
 
         holder.tvSight.setText("Tester");
 
@@ -63,6 +73,12 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     @Override
     public int getItemCount() {
         return sightsList.size();
+    }
+
+    public void removeSight(int position) {
+        ((MainActivity)context).deleteSight(sightsList.get(position));
+        sightsList.remove(position);
+        notifyItemRemoved(position);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -76,6 +92,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
             tvSight = itemView.findViewById(R.id.tvSight);
             btnDelete = itemView.findViewById(R.id.btnDelete);
         }
+
 
 
     }

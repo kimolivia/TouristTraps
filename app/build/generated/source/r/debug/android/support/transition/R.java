@@ -8,15 +8,15 @@ package android.support.transition;
 
 public final class R {
     public static final class attr {
-        public static final int font = 0x7f010153;
-        public static final int fontProviderAuthority = 0x7f01014c;
-        public static final int fontProviderCerts = 0x7f01014f;
-        public static final int fontProviderFetchStrategy = 0x7f010150;
-        public static final int fontProviderFetchTimeout = 0x7f010151;
-        public static final int fontProviderPackage = 0x7f01014d;
-        public static final int fontProviderQuery = 0x7f01014e;
-        public static final int fontStyle = 0x7f010152;
-        public static final int fontWeight = 0x7f010154;
+        public static final int font = 0x7f010172;
+        public static final int fontProviderAuthority = 0x7f01016b;
+        public static final int fontProviderCerts = 0x7f01016e;
+        public static final int fontProviderFetchStrategy = 0x7f01016f;
+        public static final int fontProviderFetchTimeout = 0x7f010170;
+        public static final int fontProviderPackage = 0x7f01016c;
+        public static final int fontProviderQuery = 0x7f01016d;
+        public static final int fontStyle = 0x7f010171;
+        public static final int fontWeight = 0x7f010173;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f0c0000;
@@ -147,8 +147,8 @@ public final class R {
         public static final int Widget_Compat_NotificationActionText = 0x7f0b0099;
     }
     public static final class styleable {
-        public static final int[] FontFamily = { 0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f01014f, 0x7f010150, 0x7f010151 };
-        public static final int[] FontFamilyFont = { 0x7f010152, 0x7f010153, 0x7f010154 };
+        public static final int[] FontFamily = { 0x7f01016b, 0x7f01016c, 0x7f01016d, 0x7f01016e, 0x7f01016f, 0x7f010170 };
+        public static final int[] FontFamilyFont = { 0x7f010171, 0x7f010172, 0x7f010173 };
         public static final int FontFamilyFont_font = 1;
         public static final int FontFamilyFont_fontStyle = 0;
         public static final int FontFamilyFont_fontWeight = 2;

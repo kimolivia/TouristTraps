@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 112,
-                    "endOffset": 163
-                },
-                "from": {
-                    "file": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/values-ldltr-v21/values-ldltr-v21.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 112,
-                        "endOffset": 163
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
         "map": [
             {
@@ -36,30 +12,6 @@
                 },
                 "from": {
                     "file": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/values-ldltr-v21/values-ldltr-v21.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 112,
-                        "endOffset": 163
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 112,
-                    "endOffset": 163
-                },
-                "from": {
-                    "file": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,27 +1,7 @@
 [
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/Computer Graphics/TouristTraps/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
@@ -30,9 +10,5 @@
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     }
 ]

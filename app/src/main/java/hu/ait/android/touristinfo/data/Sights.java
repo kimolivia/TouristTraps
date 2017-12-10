@@ -1,12 +1,18 @@
 package hu.ait.android.touristinfo.data;
 
+import io.realm.RealmObject;
+
 /**
  * Created by oliviakim on 12/5/17.
  */
 
-public class Sights {
+public class Sights extends RealmObject {
 
     // dummy class to test recyclerview and realm
+
+    public Sights() {
+
+    }
 
     private String todoTitle;
     private String createDate;
