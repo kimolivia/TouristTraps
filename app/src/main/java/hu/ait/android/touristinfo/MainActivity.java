@@ -18,6 +18,7 @@
     import android.support.v7.app.AppCompatActivity;
     import android.os.Bundle;
     import android.support.v7.widget.Toolbar;
+    import android.text.TextUtils;
     import android.util.Log;
     import android.view.MenuItem;
     import android.view.View;
@@ -63,6 +64,8 @@ public class MainActivity extends AppCompatActivity
     private List<Business>  highRatingBusinessList;
     private Retrofit retrofit;
     List<Sights> sightsResult;
+    private double latitude;
+    private double longitude;
 
 
     @Override
@@ -91,9 +94,25 @@ public class MainActivity extends AppCompatActivity
         btnEnter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String cityName = ((EditText)findViewById(R.id.etSearch)).getText().toString();
+                String cityName = ((EditText) findViewById(R.id.etSearch)).getText().toString();
+                EditText etSearch = (EditText) findViewById(R.id.etSearch);
+
                 businessesCallWithCityNameFood(retrofit, cityName);
+
+                /*
+                try {
+                    if (etSearch == null) {
+                        etSearch.setError(getString(R.string.empty_error));
+                    } else {
+                        businessesCallWithCityNameFood(retrofit, cityName);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                */
             }
+
+
         });
         setUpDrawer();
         setUpToolBar();
@@ -114,6 +133,7 @@ public class MainActivity extends AppCompatActivity
                 }
                 TextView tv = findViewById(R.id.test);
                 tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
+                placeMarkers(highRatingBusinessList);
             }
 
             @Override
@@ -173,6 +193,22 @@ public class MainActivity extends AppCompatActivity
                 Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
             }
         });
+    }
+
+    public void placeMarkers(List<Business> highRatingBusinessList) {
+        for (Business business: highRatingBusinessList) {
+
+        latitude = business.getCoordinates().getLatitude();
+        longitude = business.getCoordinates().getLongitude();
+        LatLng currentBus = new LatLng(latitude, longitude);
+        Marker marker = mMap.addMarker(new MarkerOptions().
+                position(currentBus).
+                title("Marker in searched place").
+                snippet("This is my marker")
+        );
+        marker.setDraggable(true);
+        }
+
     }
 
     @Override

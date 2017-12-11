@@ -5675,9 +5675,10 @@ containing a value of this type.
         public static final int debug_menu_title=0x7f09004e;
         public static final int debug_menu_troubleshooting=0x7f09004f;
         public static final int decline=0x7f090050;
-        public static final int enter_a_city=0x7f09007b;
-        public static final int go=0x7f09007c;
-        public static final int home=0x7f09007d;
+        public static final int empty_error=0x7f09007b;
+        public static final int enter_a_city=0x7f09007c;
+        public static final int go=0x7f09007d;
+        public static final int home=0x7f09007e;
         public static final int mr_button_content_description=0x7f090051;
         public static final int mr_chooser_searching=0x7f090052;
         public static final int mr_chooser_title=0x7f090053;
@@ -5694,23 +5695,23 @@ containing a value of this type.
         public static final int mr_controller_stop=0x7f09005e;
         public static final int mr_system_route_name=0x7f09005f;
         public static final int mr_user_route_category_name=0x7f090060;
-        public static final int password_toggle_content_description=0x7f09007e;
-        public static final int path_password_eye=0x7f09007f;
-        public static final int path_password_eye_mask_strike_through=0x7f090080;
-        public static final int path_password_eye_mask_visible=0x7f090081;
-        public static final int path_password_strike_through=0x7f090082;
+        public static final int password_toggle_content_description=0x7f09007f;
+        public static final int path_password_eye=0x7f090080;
+        public static final int path_password_eye_mask_strike_through=0x7f090081;
+        public static final int path_password_eye_mask_visible=0x7f090082;
+        public static final int path_password_strike_through=0x7f090083;
         public static final int place_autocomplete_clear_button=0x7f090061;
         public static final int place_autocomplete_search_hint=0x7f090062;
         public static final int search_menu_title=0x7f090063;
         public static final int status_bar_notification_info_overflow=0x7f090064;
         public static final int store_picture_message=0x7f090065;
         public static final int store_picture_title=0x7f090066;
-        public static final int tagmanager_preview_dialog_button=0x7f090083;
-        public static final int tagmanager_preview_dialog_message=0x7f090084;
-        public static final int tagmanager_preview_dialog_title=0x7f090085;
-        public static final int tourist_traps=0x7f090086;
+        public static final int tagmanager_preview_dialog_button=0x7f090084;
+        public static final int tagmanager_preview_dialog_message=0x7f090085;
+        public static final int tagmanager_preview_dialog_title=0x7f090086;
+        public static final int tourist_traps=0x7f090087;
         public static final int wallet_buy_button_place_holder=0x7f090067;
-        public static final int x=0x7f090087;
+        public static final int x=0x7f090088;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0b00ad;
