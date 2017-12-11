@@ -1,6 +1,8 @@
  package hu.ait.android.touristinfo;
 
     import android.Manifest;
+    import android.app.Dialog;
+    import android.content.DialogInterface;
     import android.content.Intent;
     import android.content.pm.PackageManager;
     import android.location.Address;
@@ -15,6 +17,7 @@
     import android.support.v4.content.ContextCompat;
     import android.support.v4.view.GravityCompat;
     import android.support.v4.widget.DrawerLayout;
+    import android.support.v7.app.AlertDialog;
     import android.support.v7.app.AppCompatActivity;
     import android.os.Bundle;
     import android.support.v7.widget.Toolbar;
@@ -56,7 +59,7 @@
     import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity
-        implements TouristLocationManager.NewLocationListener, OnMapReadyCallback {
+        implements TouristLocationManager.NewLocationListener, OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
     private TouristLocationManager touristLocationManager;
     private GoogleMap mMap;
@@ -203,8 +206,10 @@ public class MainActivity extends AppCompatActivity
         LatLng currentBus = new LatLng(latitude, longitude);
         Marker marker = mMap.addMarker(new MarkerOptions().
                 position(currentBus).
-                title("Marker in searched place").
-                snippet("This is my marker")
+                title(business.getName()).
+                snippet(business.getRating().toString() + " stars \n"
+                        + business.getLocation().getAddress1() + "\n" + business.getDistance() + " km away"
+                )
         );
         marker.setDraggable(true);
         }
@@ -377,6 +382,43 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onMapReady(final GoogleMap googleMap) {
+
         mMap = googleMap;
+        mMap.setOnInfoWindowClickListener(this);
     }
+
+    @Override
+    public void onInfoWindowClick(Marker marker) {
+        /*
+        Toast.makeText(this, "Info window clicked",
+                Toast.LENGTH_LONG).show();
+                */
+
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Would you like to add " + marker.getTitle() + " to your agenda?");
+        builder.setCancelable(true);
+
+        builder.setPositiveButton(
+                "Add",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+
+        builder.setNegativeButton(
+                "Cancel",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+
+
+
 }
