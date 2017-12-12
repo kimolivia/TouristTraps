@@ -1,3 +1,3 @@
-# view AndroidManifest.xml #generated:27
+# Referenced at /Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:27
 -keep class hu.ait.android.touristinfo.MainApplication { <init>(...); }
 

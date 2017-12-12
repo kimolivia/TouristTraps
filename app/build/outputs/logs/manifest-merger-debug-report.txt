@@ -1,485 +1,756 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [io.realm:realm-android-library:3.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/realm-android-library-3.0.0.aar/6377f7f5b60177fae0820681cfcf8bef/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/49654ea3fd20ad75fc869a0b204c3eb0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/5346c9ca23f99b8d51f7b4cfa6ed1c0f/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/b663d83cef0a7c8c20107f3c1bd4adcf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/40f3c7c47ef0e363e929a63db343e444/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.8.4.aar/1e351733703272b444355418cec5529f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c778cd6e201c3ff9705fac91136c057d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/7def2e76640bf92a7993b9db0e6d246d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/abf2a789f4ace2e80ee3d9a26ccc101a/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.8.0.aar/da72e4c30c53b92be462b464144e5d67/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.8.0.aar/b447f08638ea91ff52905183dd36a650/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/e5b488a66aaca114c075ab365eecbdf4/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-config-9.8.0.aar/74d44771c236298807b366886646583c/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-awareness-9.8.0.aar/37640972a7ccee9de35a7825d69789b8/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-games-9.8.0.aar/af15fc842661541f8d423808576f9f6e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.8.0.aar/60fcb7481374a426af43ef8fd90bc2e9/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.8.0.aar/e12c7503d84995b03d044a7b82bd7128/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.8.0.aar/c4a52ba22023c29c22c5fe3c3581b015/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.8.0.aar/24e8455597967a71bc3e9f2cf7987e06/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.8.0.aar/429c5408eb1b616fdbde681f5c61114e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.8.0.aar/d309137d1da22102694e268d376a9811/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.8.0.aar/c77bfef3aa0aad7a8ea40c892e999d23/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.8.0.aar/fb3df1d83367110b513f058647ae93bb/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-9.8.0.aar/721dfef6d721271ffec0d7c286142add/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-location-9.8.0.aar/c1065baad36eafe950386a2fedd98ae9/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-places-9.8.0.aar/9a2421f581e1966774945509eba92a97/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.8.0.aar/1fc0b7163d7d2f6ea10889054e5b3cbf/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.8.0.aar/46d86efa1a9329e4f5d4251041503802/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.8.0.aar/ba8dfc3ecc7a08492d7f4d8a9b5f1a0c/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.8.0.aar/0f1368031eac45ba5eee823da08bd6da/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.8.0.aar/f6723dda86cce6e3292a86889f60b02e/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-database-9.8.0.aar/70e36382d81d3cd5fc2b2aeb565aea61/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.8.0.aar/f23586826421cc8d4f4e28f746bce61f/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:16:1-51:12
+MERGED from [com.google.firebase:firebase-storage:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.8.0.aar/3ac2d5533b1447ad45061bc105cbbb7c/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.8.0.aar/0ba75eac1b2f848d323d196aefe80344/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/c8525e288df6f96c96532051e9b789e9/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/8d1a91909194f6993488f6d3fd498910/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/palette-v7-24.0.0.aar/7f61c693da755412b66b941b222a9892/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
 	package
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:3:5-41
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:2:11-69
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/oliviakim/.android/build-cache/de35d18292741a6f4b02375df2f3e1a3c9297aa2/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/oliviakim/.android/build-cache/f99bb0b161b9b009bdb39fa8f5566a98e8e794df/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/oliviakim/.android/build-cache/53fb3f5cd5a2a02c05fabec9fb7959648a3f1ef4/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/oliviakim/.android/build-cache/7dedf1f13d70e6d15ca823a37dc82ca0804a757e/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/a3b66550c1b6eb65fdb7b2d0dbd75bf4e25bc3bf/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:20:5-66
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:8:5-50:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/oliviakim/.android/build-cache/7c3a99e3b68320a59d95adf32f4112c48b360d42/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:26.1.0] /Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.1.0] /Users/oliviakim/.android/build-cache/48da4c02061ed2d1e0662a5bcbfd1aac2af6f2a9/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services:9.8.0] /Users/oliviakim/.android/build-cache/4324df21c89cd3b1e7036862708503c031a30765/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:23:5-27:19
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/oliviakim/.android/build-cache/de35d18292741a6f4b02375df2f3e1a3c9297aa2/output/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:4:5-8:19
-MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/oliviakim/.android/build-cache/05656090327519226c7b39ead4c8384f8ed983dc/output/AndroidManifest.xml:18:5-19
-MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:24.0.0] /Users/oliviakim/.android/build-cache/f93d05ef1fa8b9aa63bd05721e029555c9fb6419/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/oliviakim/.android/build-cache/d2b6abd1dca33e8e53e68a68ac30d2240ed47518/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/oliviakim/.android/build-cache/5553dd1462174e1b0ce26a94f2b805ed4ca686ba/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/oliviakim/.android/build-cache/ebcfd6ff17b104afece5d0d17056cda09311db3d/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/oliviakim/.android/build-cache/9008d6bcb8571202afc831f5b7875cc838ea0444/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/oliviakim/.android/build-cache/4de1cd071f4ec22a5e6b0a99adbc8d69ebcc2e6c/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/oliviakim/.android/build-cache/f99bb0b161b9b009bdb39fa8f5566a98e8e794df/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/oliviakim/.android/build-cache/6d486ad41ea1af9c2fbc3c771007cddc0d09f446/output/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/oliviakim/.android/build-cache/c8aab52a745eda40d5780721cb31c5c5c40e628f/output/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/oliviakim/.android/build-cache/13e02a8e459ca6bd3dc403f3fa58e0a800024693/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/oliviakim/.android/build-cache/90a99c012a0cee6f91ab036f8eff9845fb483063/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/oliviakim/.android/build-cache/0eeb0b2c75d285577df0116797475825610d5950/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/oliviakim/.android/build-cache/f693f1e777629c52ccd25714dc4c2b19406a8ff0/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/oliviakim/.android/build-cache/53fb3f5cd5a2a02c05fabec9fb7959648a3f1ef4/output/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/oliviakim/.android/build-cache/23cf552a71a4ef3156b2a04442fb169fbc1a41b5/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/oliviakim/.android/build-cache/7dedf1f13d70e6d15ca823a37dc82ca0804a757e/output/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/oliviakim/.android/build-cache/7e0589202c48e61edb8fc3ee237e4a78702b1df6/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/oliviakim/.android/build-cache/9c39a925eb19587465dad1754e742a2ba6d7e026/output/AndroidManifest.xml:5:5-19
-MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/oliviakim/.android/build-cache/2f135e7dd2c2c2878b88845c15a6a0e500cf3982/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/oliviakim/.android/build-cache/9264b9cd6fcceac4673acfb9c364d57fcd9149d3/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/oliviakim/.android/build-cache/5e992bbee42e68e7a7304e8926ffdc8a5f9ae7e2/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/oliviakim/.android/build-cache/b2e38f7e428aa51c7d72237dcdbab2efc03664cc/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/a3b66550c1b6eb65fdb7b2d0dbd75bf4e25bc3bf/output/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/oliviakim/.android/build-cache/453bfe05b60f94c0cdf9225a7a9af3f42d4e63b4/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/oliviakim/.android/build-cache/6dc3ddc427819e1e89fddad4d2a4554acff93dee/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/oliviakim/.android/build-cache/c2d1fd437169cff68c085e2126de72c6fc08524c/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/oliviakim/.android/build-cache/2b15a7898d9655dd9c30378112203485d26bf778/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/oliviakim/.android/build-cache/e1c6d42791a51f75a5f70d20b7b37cf44ee1b96f/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/oliviakim/.android/build-cache/eee76a5ee3c0c45b3031007fdcd00cd94d41c005/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/oliviakim/.android/build-cache/4cac97ed44a6f948d300214ac60cd567c07f7e7c/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/oliviakim/.android/build-cache/b2ad4b012e707562604b3a3598dcf38797183b36/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/oliviakim/.android/build-cache/7180289b29fdbea6a7b33e84e6ef53c9ab561dc3/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/oliviakim/.android/build-cache/908707f472ad230c75ca4debb4df7c3807e39b46/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/oliviakim/.android/build-cache/28a581e79e436d055c6b929a96714e82c0a1b429/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/oliviakim/.android/build-cache/94b8283341a2149f422d1efee18f7e5af3d76244/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/oliviakim/.android/build-cache/1e53615eee18842f6d1a683da6550c25e2727d43/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/oliviakim/.android/build-cache/bca919c166682701c8ed02be30e3820c752f1583/output/AndroidManifest.xml:11:5-20
-	android:label
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:12:9-41
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:8:5-50:19
+MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/49654ea3fd20ad75fc869a0b204c3eb0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/49654ea3fd20ad75fc869a0b204c3eb0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/5346c9ca23f99b8d51f7b4cfa6ed1c0f/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/5346c9ca23f99b8d51f7b4cfa6ed1c0f/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/b663d83cef0a7c8c20107f3c1bd4adcf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/b663d83cef0a7c8c20107f3c1bd4adcf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/40f3c7c47ef0e363e929a63db343e444/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/40f3c7c47ef0e363e929a63db343e444/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.8.4.aar/1e351733703272b444355418cec5529f/AndroidManifest.xml:11:5-20
+MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.8.4.aar/1e351733703272b444355418cec5529f/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/e5b488a66aaca114c075ab365eecbdf4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/e5b488a66aaca114c075ab365eecbdf4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-config-9.8.0.aar/74d44771c236298807b366886646583c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-config-9.8.0.aar/74d44771c236298807b366886646583c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-awareness-9.8.0.aar/37640972a7ccee9de35a7825d69789b8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-awareness-9.8.0.aar/37640972a7ccee9de35a7825d69789b8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-games-9.8.0.aar/af15fc842661541f8d423808576f9f6e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-games-9.8.0.aar/af15fc842661541f8d423808576f9f6e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.8.0.aar/60fcb7481374a426af43ef8fd90bc2e9/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.8.0.aar/60fcb7481374a426af43ef8fd90bc2e9/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.8.0.aar/e12c7503d84995b03d044a7b82bd7128/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.8.0.aar/e12c7503d84995b03d044a7b82bd7128/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.8.0.aar/c4a52ba22023c29c22c5fe3c3581b015/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.8.0.aar/c4a52ba22023c29c22c5fe3c3581b015/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.8.0.aar/429c5408eb1b616fdbde681f5c61114e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.8.0.aar/429c5408eb1b616fdbde681f5c61114e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.8.0.aar/d309137d1da22102694e268d376a9811/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.8.0.aar/d309137d1da22102694e268d376a9811/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.8.0.aar/fb3df1d83367110b513f058647ae93bb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.8.0.aar/fb3df1d83367110b513f058647ae93bb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-location-9.8.0.aar/c1065baad36eafe950386a2fedd98ae9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-location-9.8.0.aar/c1065baad36eafe950386a2fedd98ae9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-places-9.8.0.aar/9a2421f581e1966774945509eba92a97/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-places-9.8.0.aar/9a2421f581e1966774945509eba92a97/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.8.0.aar/1fc0b7163d7d2f6ea10889054e5b3cbf/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.8.0.aar/1fc0b7163d7d2f6ea10889054e5b3cbf/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.8.0.aar/46d86efa1a9329e4f5d4251041503802/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.8.0.aar/46d86efa1a9329e4f5d4251041503802/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.8.0.aar/ba8dfc3ecc7a08492d7f4d8a9b5f1a0c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.8.0.aar/ba8dfc3ecc7a08492d7f4d8a9b5f1a0c/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.8.0.aar/0f1368031eac45ba5eee823da08bd6da/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.8.0.aar/0f1368031eac45ba5eee823da08bd6da/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.8.0.aar/f6723dda86cce6e3292a86889f60b02e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.8.0.aar/f6723dda86cce6e3292a86889f60b02e/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/c8525e288df6f96c96532051e9b789e9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/c8525e288df6f96c96532051e9b789e9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/8d1a91909194f6993488f6d3fd498910/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/8d1a91909194f6993488f6d3fd498910/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/palette-v7-24.0.0.aar/7f61c693da755412b66b941b222a9892/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/palette-v7-24.0.0.aar/7f61c693da755412b66b941b222a9892/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:13:9-54
-	android:allowBackup
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:15:9-65
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:15:9-65
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:9:9-40
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:9:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:17:9-19:71
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:17:9-19:71
 	android:value
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:19:13-68
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:19:13-68
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:18:13-58
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:18:13-58
 activity#hu.ait.android.touristinfo.SplashActivity
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:21:9-29:20
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:21:9-29:20
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:22:13-43
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:22:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:27:27-74
 activity#hu.ait.android.touristinfo.MainActivity
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:30:9-36:20
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:30:9-36:20
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:30:19-47
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:30:19-47
 activity#hu.ait.android.touristinfo.MyAgenda
-ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:38:9-46:20
+ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:38:9-46:20
 	android:name
-		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:39:13-37
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml:39:13-37
 uses-sdk
-INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [io.realm:realm-android-library:3.0.0] /Users/oliviakim/.android/build-cache/0cf4f11f1960c32fd6715e16190f49c5d436f1df/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/oliviakim/.android/build-cache/ce48d3b8c96eb97d6e32be67c35abb2741054145/output/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/oliviakim/.android/build-cache/7c3a99e3b68320a59d95adf32f4112c48b360d42/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:26.1.0] /Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:26.1.0] /Users/oliviakim/.android/build-cache/48da4c02061ed2d1e0662a5bcbfd1aac2af6f2a9/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services:9.8.0] /Users/oliviakim/.android/build-cache/4324df21c89cd3b1e7036862708503c031a30765/output/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/oliviakim/.android/build-cache/95e6699896da741a60e38af7b61745773eac3c83/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:22:5-42
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/oliviakim/.android/build-cache/de35d18292741a6f4b02375df2f3e1a3c9297aa2/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/oliviakim/.android/build-cache/2a4358923edfed986b5c7d73ab5b488ece6bf1a6/output/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/oliviakim/.android/build-cache/05656090327519226c7b39ead4c8384f8ed983dc/output/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/oliviakim/.android/build-cache/a86f897881fdad5163f1c5b9ee5e7e12c3c870f0/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:24.0.0] /Users/oliviakim/.android/build-cache/f93d05ef1fa8b9aa63bd05721e029555c9fb6419/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/oliviakim/.android/build-cache/d2b6abd1dca33e8e53e68a68ac30d2240ed47518/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/oliviakim/.android/build-cache/5553dd1462174e1b0ce26a94f2b805ed4ca686ba/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/oliviakim/.android/build-cache/ebcfd6ff17b104afece5d0d17056cda09311db3d/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/oliviakim/.android/build-cache/9008d6bcb8571202afc831f5b7875cc838ea0444/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/oliviakim/.android/build-cache/4de1cd071f4ec22a5e6b0a99adbc8d69ebcc2e6c/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/oliviakim/.android/build-cache/f99bb0b161b9b009bdb39fa8f5566a98e8e794df/output/AndroidManifest.xml:20:5-42
-MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/oliviakim/.android/build-cache/6d486ad41ea1af9c2fbc3c771007cddc0d09f446/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/oliviakim/.android/build-cache/c8aab52a745eda40d5780721cb31c5c5c40e628f/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /Users/oliviakim/.android/build-cache/3070d958985a08d2d66e4dec1d20501fe530b9bd/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database:9.8.0] /Users/oliviakim/.android/build-cache/775512ba18002426fa03918d3fd37b8688b7ace3/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /Users/oliviakim/.android/build-cache/9041f69adf6176d6c78748f4ff9b8c69e6def689/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-storage:9.8.0] /Users/oliviakim/.android/build-cache/b0cb4e58e61ffd982d0d6ab82e9ce996e46e45bc/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /Users/oliviakim/.android/build-cache/0d9b991d59ddf371e86f3eaf96b18c14f47df709/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/oliviakim/.android/build-cache/13e02a8e459ca6bd3dc403f3fa58e0a800024693/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/oliviakim/.android/build-cache/90a99c012a0cee6f91ab036f8eff9845fb483063/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/oliviakim/.android/build-cache/0eeb0b2c75d285577df0116797475825610d5950/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/oliviakim/.android/build-cache/f693f1e777629c52ccd25714dc4c2b19406a8ff0/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/oliviakim/.android/build-cache/53fb3f5cd5a2a02c05fabec9fb7959648a3f1ef4/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/oliviakim/.android/build-cache/23cf552a71a4ef3156b2a04442fb169fbc1a41b5/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/oliviakim/.android/build-cache/7dedf1f13d70e6d15ca823a37dc82ca0804a757e/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] /Users/oliviakim/.android/build-cache/cb60c09e5103b96c114a812dfd44e3d287561c3b/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/oliviakim/.android/build-cache/7e0589202c48e61edb8fc3ee237e4a78702b1df6/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/oliviakim/.android/build-cache/9c39a925eb19587465dad1754e742a2ba6d7e026/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/oliviakim/.android/build-cache/2f135e7dd2c2c2878b88845c15a6a0e500cf3982/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/oliviakim/.android/build-cache/9264b9cd6fcceac4673acfb9c364d57fcd9149d3/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/oliviakim/.android/build-cache/5e992bbee42e68e7a7304e8926ffdc8a5f9ae7e2/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/oliviakim/.android/build-cache/b2e38f7e428aa51c7d72237dcdbab2efc03664cc/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] /Users/oliviakim/.android/build-cache/aa3080cd901f5f1544b5a19d760019a7afd30513/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/a3b66550c1b6eb65fdb7b2d0dbd75bf4e25bc3bf/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/oliviakim/.android/build-cache/453bfe05b60f94c0cdf9225a7a9af3f42d4e63b4/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/oliviakim/.android/build-cache/1b19d035be8eec07a30345ea84c2e421d595b4f5/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/oliviakim/.android/build-cache/6dc3ddc427819e1e89fddad4d2a4554acff93dee/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/oliviakim/.android/build-cache/c2d1fd437169cff68c085e2126de72c6fc08524c/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/oliviakim/.android/build-cache/2b15a7898d9655dd9c30378112203485d26bf778/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/oliviakim/.android/build-cache/e1c6d42791a51f75a5f70d20b7b37cf44ee1b96f/output/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:26.1.0] /Users/oliviakim/.android/build-cache/eee76a5ee3c0c45b3031007fdcd00cd94d41c005/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/oliviakim/.android/build-cache/4cac97ed44a6f948d300214ac60cd567c07f7e7c/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/oliviakim/.android/build-cache/b2ad4b012e707562604b3a3598dcf38797183b36/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/oliviakim/.android/build-cache/7180289b29fdbea6a7b33e84e6ef53c9ab561dc3/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/oliviakim/.android/build-cache/908707f472ad230c75ca4debb4df7c3807e39b46/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/oliviakim/.android/build-cache/28a581e79e436d055c6b929a96714e82c0a1b429/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/oliviakim/.android/build-cache/94b8283341a2149f422d1efee18f7e5af3d76244/output/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/oliviakim/.android/build-cache/1e53615eee18842f6d1a683da6550c25e2727d43/output/AndroidManifest.xml:20:5-44
-MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/oliviakim/.android/build-cache/bca919c166682701c8ed02be30e3820c752f1583/output/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:3.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/realm-android-library-3.0.0.aar/6377f7f5b60177fae0820681cfcf8bef/AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:3.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/realm-android-library-3.0.0.aar/6377f7f5b60177fae0820681cfcf8bef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/49654ea3fd20ad75fc869a0b204c3eb0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-9.8.0.aar/49654ea3fd20ad75fc869a0b204c3eb0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/5346c9ca23f99b8d51f7b4cfa6ed1c0f/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.8.0.aar/5346c9ca23f99b8d51f7b4cfa6ed1c0f/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/b663d83cef0a7c8c20107f3c1bd4adcf/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-24.0.0.aar/b663d83cef0a7c8c20107f3c1bd4adcf/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/40f3c7c47ef0e363e929a63db343e444/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/40f3c7c47ef0e363e929a63db343e444/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:20:5-44
+MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.8.4.aar/1e351733703272b444355418cec5529f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.medyo:fancybuttons:1.8.4] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/fancybuttons-1.8.4.aar/1e351733703272b444355418cec5529f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c778cd6e201c3ff9705fac91136c057d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c778cd6e201c3ff9705fac91136c057d/AndroidManifest.xml:20:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/7def2e76640bf92a7993b9db0e6d246d/AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/7def2e76640bf92a7993b9db0e6d246d/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/abf2a789f4ace2e80ee3d9a26ccc101a/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/abf2a789f4ace2e80ee3d9a26ccc101a/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.8.0.aar/da72e4c30c53b92be462b464144e5d67/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.8.0.aar/da72e4c30c53b92be462b464144e5d67/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.8.0.aar/b447f08638ea91ff52905183dd36a650/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.8.0.aar/b447f08638ea91ff52905183dd36a650/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/e5b488a66aaca114c075ab365eecbdf4/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/e5b488a66aaca114c075ab365eecbdf4/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-config-9.8.0.aar/74d44771c236298807b366886646583c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-config-9.8.0.aar/74d44771c236298807b366886646583c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-awareness-9.8.0.aar/37640972a7ccee9de35a7825d69789b8/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-awareness-9.8.0.aar/37640972a7ccee9de35a7825d69789b8/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-games-9.8.0.aar/af15fc842661541f8d423808576f9f6e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-games-9.8.0.aar/af15fc842661541f8d423808576f9f6e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.8.0.aar/60fcb7481374a426af43ef8fd90bc2e9/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.8.0.aar/60fcb7481374a426af43ef8fd90bc2e9/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.8.0.aar/e12c7503d84995b03d044a7b82bd7128/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.8.0.aar/e12c7503d84995b03d044a7b82bd7128/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.8.0.aar/c4a52ba22023c29c22c5fe3c3581b015/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.8.0.aar/c4a52ba22023c29c22c5fe3c3581b015/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.8.0.aar/24e8455597967a71bc3e9f2cf7987e06/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.8.0.aar/24e8455597967a71bc3e9f2cf7987e06/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.8.0.aar/429c5408eb1b616fdbde681f5c61114e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.8.0.aar/429c5408eb1b616fdbde681f5c61114e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.8.0.aar/d309137d1da22102694e268d376a9811/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.8.0.aar/d309137d1da22102694e268d376a9811/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.8.0.aar/c77bfef3aa0aad7a8ea40c892e999d23/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.8.0.aar/c77bfef3aa0aad7a8ea40c892e999d23/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.8.0.aar/fb3df1d83367110b513f058647ae93bb/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.8.0.aar/fb3df1d83367110b513f058647ae93bb/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-9.8.0.aar/721dfef6d721271ffec0d7c286142add/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-9.8.0.aar/721dfef6d721271ffec0d7c286142add/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-location-9.8.0.aar/c1065baad36eafe950386a2fedd98ae9/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-location-9.8.0.aar/c1065baad36eafe950386a2fedd98ae9/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-places-9.8.0.aar/9a2421f581e1966774945509eba92a97/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-places-9.8.0.aar/9a2421f581e1966774945509eba92a97/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.8.0.aar/1fc0b7163d7d2f6ea10889054e5b3cbf/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.8.0.aar/1fc0b7163d7d2f6ea10889054e5b3cbf/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.8.0.aar/46d86efa1a9329e4f5d4251041503802/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.8.0.aar/46d86efa1a9329e4f5d4251041503802/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.8.0.aar/ba8dfc3ecc7a08492d7f4d8a9b5f1a0c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.8.0.aar/ba8dfc3ecc7a08492d7f4d8a9b5f1a0c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.8.0.aar/0f1368031eac45ba5eee823da08bd6da/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.8.0.aar/0f1368031eac45ba5eee823da08bd6da/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.8.0.aar/f6723dda86cce6e3292a86889f60b02e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.8.0.aar/f6723dda86cce6e3292a86889f60b02e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-crash:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.8.0.aar/e4760e2c4ee0f582c8c9917bb9c8a36c/AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-database:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-database-9.8.0.aar/70e36382d81d3cd5fc2b2aeb565aea61/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-database-9.8.0.aar/70e36382d81d3cd5fc2b2aeb565aea61/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.8.0.aar/f23586826421cc8d4f4e28f746bce61f/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.8.0.aar/f23586826421cc8d4f4e28f746bce61f/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.8.0.aar/3ac2d5533b1447ad45061bc105cbbb7c/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.8.0.aar/3ac2d5533b1447ad45061bc105cbbb7c/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.8.0.aar/0ba75eac1b2f848d323d196aefe80344/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.8.0.aar/0ba75eac1b2f848d323d196aefe80344/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/c8525e288df6f96c96532051e9b789e9/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/c8525e288df6f96c96532051e9b789e9/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/8d1a91909194f6993488f6d3fd498910/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/8d1a91909194f6993488f6d3fd498910/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/palette-v7-24.0.0.aar/7f61c693da755412b66b941b222a9892/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/palette-v7-24.0.0.aar/7f61c693da755412b66b941b222a9892/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] /Users/oliviakim/.android/build-cache/48da4c02061ed2d1e0662a5bcbfd1aac2af6f2a9/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/oliviakim/.android/build-cache/d2b6abd1dca33e8e53e68a68ac30d2240ed47518/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/oliviakim/.android/build-cache/5553dd1462174e1b0ce26a94f2b805ed4ca686ba/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/oliviakim/.android/build-cache/eee76a5ee3c0c45b3031007fdcd00cd94d41c005/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/oliviakim/.android/build-cache/4cac97ed44a6f948d300214ac60cd567c07f7e7c/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/oliviakim/.android/build-cache/b2ad4b012e707562604b3a3598dcf38797183b36/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/oliviakim/.android/build-cache/7180289b29fdbea6a7b33e84e6ef53c9ab561dc3/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/oliviakim/.android/build-cache/908707f472ad230c75ca4debb4df7c3807e39b46/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/oliviakim/.android/build-cache/28a581e79e436d055c6b929a96714e82c0a1b429/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/oliviakim/.android/build-cache/f571d40c6b787380a8ae0bd8a0946772d4cc589d/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/oliviakim/.android/build-cache/1e53615eee18842f6d1a683da6550c25e2727d43/output/AndroidManifest.xml:23:9-25:38
+ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/df6c210e26f4b5128d4613f312aacd4d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a6cc7db2ecad976f242df8880312ced4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/77e9e47c6817dc2e4a89cfc334f58d51/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5e30de45415478f74ed8fc822cf4f4df/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/4ec5266570f20af8a475e99b325da5af/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a82ddaf3c97228d798cfb7002f8e3e3c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c3976565e2f8f9019a5435e3c31e19d6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/7af607add601c887c8d47cdb76d986ee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9f6bb85b9c3a110c59d37d0849f8e91d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/dfa43b9b1f5aeb0d719d11ae563d2fd0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/1c0b5b2eb4b1709b348e8ef50cf89e85/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/a3d797651059b6d3cab9b4e362a77b0c/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] /Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] /Users/oliviakim/.android/build-cache/e822b6ca87486c0782f056b6f09b96e4c195a465/output/AndroidManifest.xml:27:13-51
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/oliviakim/.android/build-cache/de35d18292741a6f4b02375df2f3e1a3c9297aa2/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/oliviakim/.android/build-cache/9c39a925eb19587465dad1754e742a2ba6d7e026/output/AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/a3b66550c1b6eb65fdb7b2d0dbd75bf4e25bc3bf/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:20:22-76
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:25:9-232
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:25:72-181
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:25:182-230
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:25:19-71
-activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:26:9-131
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:26:92-129
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/oliviakim/.android/build-cache/bf7279565a751021da1cd1217dc26d3b445df10f/output/AndroidManifest.xml:26:19-91
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/oliviakim/.android/build-cache/de35d18292741a6f4b02375df2f3e1a3c9297aa2/output/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/a3b66550c1b6eb65fdb7b2d0dbd75bf4e25bc3bf/output/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:21:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/oliviakim/.android/build-cache/de35d18292741a6f4b02375df2f3e1a3c9297aa2/output/AndroidManifest.xml:24:22-65
-activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:20:9-25:20
-	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:20:51-74
-	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:20:75-121
-	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:20:19-50
-intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:21:13-24:29
-action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:22:17-89
-	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:22:25-87
-category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:23:17-75
-	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/oliviakim/.android/build-cache/970b120ce255efa639380f03a4a0a4eec595632b/output/AndroidManifest.xml:23:27-73
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:20:9-189
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:20:129-162
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:20:163-187
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:20:69-128
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:20:19-68
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:24:9-184
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:24:64-87
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:24:88-182
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/oliviakim/.android/build-cache/750a9b8abff2dbe3368a4e5bdbe2afde7391c8d5/output/AndroidManifest.xml:24:18-63
+		ADDED from [com.android.support:design:26.1.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/dd858bedb649a99998adf3e1452a9097/AndroidManifest.xml:27:13-51
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
-ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:5:9-99
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:5:9-99
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:5:19-97
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:5:19-97
 service#com.google.android.gms.cast.framework.media.MediaNotificationService
-ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:6:9-103
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:6:9-103
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:6:18-101
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:6:18-101
 service#com.google.android.gms.cast.framework.ReconnectionService
-ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:7:9-92
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:7:9-92
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/oliviakim/.android/build-cache/89a187b5c516f4113fcd4250bf1cb7ed205a8481/output/AndroidManifest.xml:7:18-90
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:23:9-27:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:23:88-111
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.8.0.aar/d1572828165f794a30ba37a358542db5/AndroidManifest.xml:7:18-90
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.8.0.aar/481b0fcc2b1c7953ab27b5d82fcaacb6/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:23:18-87
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:24:13-26:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:24:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/oliviakim/.android/build-cache/cd66529d62b651aabf05d3e3e32a14f795d9bb95/output/AndroidManifest.xml:25:25-75
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/oliviakim/.android/build-cache/53fb3f5cd5a2a02c05fabec9fb7959648a3f1ef4/output/AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/oliviakim/.android/build-cache/7dedf1f13d70e6d15ca823a37dc82ca0804a757e/output/AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:22:5-81
-	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/oliviakim/.android/build-cache/53fb3f5cd5a2a02c05fabec9fb7959648a3f1ef4/output/AndroidManifest.xml:20:22-79
-service#com.google.android.gms.tagmanager.TagManagerService
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:24:9-134
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:24:110-132
-	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:24:85-109
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:24:18-84
-activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:25:9-32:20
-	android:noHistory
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:25:94-118
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:25:19-93
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:26:13-31:29
-data
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:27:17-71
-	android:scheme
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:27:23-69
-action#android.intent.action.VIEW
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:28:17-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:28:25-66
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:30:17-77
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/oliviakim/.android/build-cache/3d9b5d16a61035a089cc293f50fadb0f0917c588/output/AndroidManifest.xml:30:27-75
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:25:7-26:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:25:90-112
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:25:113-137
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:25:17-89
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:27:7-31:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:27:162-184
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:27:105-161
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:27:17-104
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:28:11-30:27
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:29:15-76
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:29:23-74
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/oliviakim/.android/build-cache/c931fcb8d3d105d83cea2c112053b7602f3280ea/output/AndroidManifest.xml:27:7-137
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:32:88-110
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:32:111-135
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/oliviakim/.android/build-cache/8dd27dcd7f62b6088c9e227b64b10198551f7859/output/AndroidManifest.xml:32:16-87
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:24:5-109
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:24:72-107
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:24:17-71
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:26:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:26:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:30:9-36:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:30:85-108
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:30:109-169
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:30:19-84
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:31:13-35:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:32:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:32:25-78
-action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:33:17-85
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:33:25-83
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:34:17-60
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:34:27-58
-receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:40:9-119
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:40:93-117
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:40:19-92
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:44:9-48:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:44:83-106
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:44:18-82
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:45:13-47:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:45:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:46:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/oliviakim/.android/build-cache/d1ed5d20eed7084c79da6d1441406fb19f65013d/output/AndroidManifest.xml:46:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:6:9-175
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:6:19-78
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:6:125-149
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:6:150-173
-	android:name
-		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/oliviakim/.android/build-cache/715a78626fba0be36f8a781b69bcf041ea378b28/output/AndroidManifest.xml:6:79-124
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:21:5-77
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:21:19-51
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/oliviakim/.android/build-cache/5d47aa8082640b656e4072f8e440d04d61ca7844/output/AndroidManifest.xml:21:52-75
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/oliviakim/.android/build-cache/3b8b67b38062d11a054d4317ca7890b72b2e46ad/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/b1f6893974303698cfb5197f47fe8567/AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.8.0.aar/1e490377dcbe8078e46fbb1c36242019/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.8.0.aar/8abc2a02bab360f81006d19b39cfaf0d/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.8.0.aar/281a52420604d4fe6d991a8dbeb9db2f/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.8.0.aar/fee76e6a28d350c69a6056aede59077e/AndroidManifest.xml:24:18-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.8.0.aar/56a9e32e76f0537e252c5fa4facaa948/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.8.0.aar/fff55779149d0bf7278f18dc9e30ee62/AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.8.0.aar/7b780e9a17931de8cf75d1c656e75c9b/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/6eebafe68c6dd8b92af626a92cf527bf/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.8.0.aar/bb125146b0be65fac90b1d15c7de765c/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.8.0.aar/494b8728d261f4884671c2793334f525/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.8.0.aar/9472d3ff2aa2bac7b5213ee9742b4e90/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.8.0.aar/1a544d3df8f014eda2776366955ff535/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:24:17-71
+permission#hu.ait.android.touristinfo.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:26:22-76
+uses-permission#hu.ait.android.touristinfo.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:31:13-35:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+hu.ait.android.touristinfo
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:34:27-58
+category#hu.ait.android.touristinfo
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.8.0.aar/92725f51ef9aeb3b3e864bc69e2304a6/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/firebase-common-9.8.0.aar/20239d214c7efb3d632aa87cac15327a/AndroidManifest.xml:6:79-124
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/oliviakim/.android/build-cache/e1c6d42791a51f75a5f70d20b7b37cf44ee1b96f/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/oliviakim/.android/build-cache/e1c6d42791a51f75a5f70d20b7b37cf44ee1b96f/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/oliviakim/.android/build-cache/e1c6d42791a51f75a5f70d20b7b37cf44ee1b96f/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/338eb8a4bf23d80eb5a84e366e44a8b5/AndroidManifest.xml:20:20-65
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/oliviakim/.android/build-cache/94b8283341a2149f422d1efee18f7e5af3d76244/output/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/oliviakim/.android/build-cache/94b8283341a2149f422d1efee18f7e5af3d76244/output/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/oliviakim/.android/build-cache/94b8283341a2149f422d1efee18f7e5af3d76244/output/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/zhaozhaoxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb5cd9741d319c17b0aa919d98614d86/AndroidManifest.xml:26:13-58
