@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
     private List<Business>  highRatingBusinessList;
-    public List<Business> addedToAgendaList;
+    public ArrayList<Sights> addedToAgendaList;
     private Retrofit retrofit;
     List<Sights> sightsResult;
     private double latitude;
@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity
 
         touristLocationManager = new TouristLocationManager(this,this);
         highRatingBusinessList = new ArrayList<>();
+        addedToAgendaList = new ArrayList<>();
+
 
         requestNeededPermission();
 
@@ -217,6 +219,7 @@ public class MainActivity extends AppCompatActivity
                         " people " +  "    " + business.getDistance().intValue() + " km away")
             );
             marker.setDraggable(true);
+            marker.setTag(business);
             if (i == 0){
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentBus , 11.0f) );
             }
@@ -303,8 +306,8 @@ public class MainActivity extends AppCompatActivity
                         menuItem.setChecked(true);
                         switch (menuItem.getItemId()) {
                             case R.id.action_seeAgenda:
-                                Intent intent = new Intent();
-                                intent.setClass(MainActivity.this, MyAgenda.class);
+                                Intent intent = new Intent(MainActivity.this, MyAgenda.class);
+                                intent.putParcelableArrayListExtra("list", addedToAgendaList);
                                 startActivity(intent);
 
                                 drawerLayout.closeDrawer(GravityCompat.START);
@@ -406,7 +409,12 @@ public class MainActivity extends AppCompatActivity
                     public void onClick(DialogInterface dialog, int id) {
                         for(Business bus : highRatingBusinessList) {
                             if (bus.getName().equals(marker.getTitle())) {
-
+                                Business business = (Business) marker.getTag();
+                                Sights onClickSight = new Sights();
+                                onClickSight.setName(business.getName());
+                                onClickSight.setRating(business.getRating());
+                                onClickSight.setDone(false);
+                                addedToAgendaList.add(onClickSight);
                             }
 
 

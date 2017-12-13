@@ -31,9 +31,9 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
 
     public AgendaAdapter() {
         sightsList = new ArrayList<Sights>();
-        for (int i = 0; i < 20; i++) {
-            sightsList.add(new Sights("Todo"+i, "16. 10. 2017", false));
-        }
+//        for (int i = 0; i < 20; i++) {
+//            sightsList.add(new Sights("Todo"+i, "16. 10. 2017", false));
+//        }
     }
 
     /*
