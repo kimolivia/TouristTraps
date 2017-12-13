@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import hu.ait.android.touristinfo.adapter.AgendaAdapter;
+import hu.ait.android.touristinfo.data.businesses.Business;
 import hu.ait.android.touristinfo.touch.AgendaTouchHelperCallback;
 import io.realm.Realm;
 
@@ -78,7 +79,6 @@ public class MyAgenda extends AppCompatActivity {
     public Realm getRealm() {
         return ((MainApplication)getApplication()).getRealmSights();
     }
-
 
 
     /*
