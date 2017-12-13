@@ -1,62 +1,65 @@
- package hu.ait.android.touristinfo;
+package hu.ait.android.touristinfo;
 
-    import android.Manifest;
-    import android.app.Dialog;
-    import android.content.DialogInterface;
-    import android.content.Intent;
-    import android.content.pm.PackageManager;
-    import android.location.Address;
-    import android.location.Geocoder;
-    import android.location.Location;
-    import android.location.LocationManager;
-    import android.support.annotation.NonNull;
-    import android.support.design.widget.NavigationView;
-    import android.support.design.widget.Snackbar;
-    import android.support.v4.app.ActivityCompat;
-    import android.support.v4.app.FragmentActivity;
-    import android.support.v4.content.ContextCompat;
-    import android.support.v4.view.GravityCompat;
-    import android.support.v4.widget.DrawerLayout;
-    import android.support.v7.app.AlertDialog;
-    import android.support.v7.app.AppCompatActivity;
-    import android.os.Bundle;
-    import android.support.v7.widget.Toolbar;
-    import android.text.TextUtils;
-    import android.util.Log;
-    import android.view.MenuItem;
-    import android.view.View;
-    import android.widget.Button;
-    import android.widget.EditText;
-    import android.widget.TextView;
-    import android.widget.Toast;
+import android.Manifest;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.location.Address;
+import android.location.Geocoder;
+import android.location.Location;
+import android.location.LocationManager;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
-    import com.google.android.gms.maps.CameraUpdateFactory;
-    import com.google.android.gms.maps.GoogleMap;
-    import com.google.android.gms.maps.MapFragment;
-    import com.google.android.gms.maps.OnMapReadyCallback;
-    import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-    import com.google.android.gms.maps.model.LatLng;
-    import com.google.android.gms.maps.model.Marker;
-    import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-    import java.io.IOException;
-    import java.util.ArrayList;
-    import java.util.Arrays;
-    import java.util.List;
-    import java.util.Locale;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
 
-    import hu.ait.android.touristinfo.data.Sights;
-    import hu.ait.android.touristinfo.data.businesses.Business;
-    import hu.ait.android.touristinfo.data.businesses.BusinessesResult;
-    import hu.ait.android.touristinfo.network.BusinessesAPI;
-    import io.realm.Realm;
-    import io.realm.RealmResults;
-    import mehdi.sakout.fancybuttons.FancyButton;
-    import retrofit2.Call;
-    import retrofit2.Callback;
-    import retrofit2.Response;
-    import retrofit2.Retrofit;
-    import retrofit2.converter.gson.GsonConverterFactory;
+import hu.ait.android.touristinfo.data.Sights;
+import hu.ait.android.touristinfo.data.businesses.Business;
+import hu.ait.android.touristinfo.data.businesses.BusinessesResult;
+import hu.ait.android.touristinfo.network.BusinessesAPI;
+import io.realm.Realm;
+import io.realm.RealmResults;
+import mehdi.sakout.fancybuttons.FancyButton;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity
         implements TouristLocationManager.NewLocationListener, OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
@@ -98,8 +101,6 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 String cityName = ((EditText) findViewById(R.id.etSearch)).getText().toString();
-                EditText etSearch = (EditText) findViewById(R.id.etSearch);
-
                 businessesCallWithCityNameFood(retrofit, cityName);
 
                 /*
@@ -123,7 +124,6 @@ public class MainActivity extends AppCompatActivity
 
     private void businessesCallWithCityNameFood(Retrofit retrofit, String cityName) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-        //if category ==
         Call<BusinessesResult> call = businessesAPI.getBusinessesResult("food", cityName);
         call.enqueue(new Callback<BusinessesResult>() {
 
@@ -131,12 +131,10 @@ public class MainActivity extends AppCompatActivity
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
                 List<Business> businessList = response.body().getBusinesses();
                 for (Business business: businessList){
-                    if (business.getRating() >= 4.4)
+                    if (business.getRating() >= 4.0)
                         highRatingBusinessList.add(business);
                 }
-                TextView tv = findViewById(R.id.test);
-                tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
-                placeMarkers(highRatingBusinessList);
+                placeFoodMarkers(highRatingBusinessList);
             }
 
             @Override
@@ -173,14 +171,14 @@ public class MainActivity extends AppCompatActivity
     private void businessesCallWithCoord(Retrofit retrofit, Double latitude, Double longitude) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
         //if category ==
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResultCoord("food", latitude, longitude, 10000);
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResultCoord("food", latitude, longitude, 100);
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
                 List<Business> businessList = response.body().getBusinesses();
                 for (Business business: businessList){
-                    if (business.getRating() >= 4.4)
+                    if (business.getRating() >= 4.0)
                         highRatingBusinessList.add(business);
                 }
                 /*)
@@ -200,22 +198,28 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
-    public void placeMarkers(List<Business> highRatingBusinessList) {
-        for (Business business: highRatingBusinessList) {
+    public void placeFoodMarkers(List<Business> highRatingBusinessList) {
+        Bitmap foodMarker = BitmapFactory.decodeResource(getResources(),R.drawable.food);
+        Bitmap smallFoodMarker = Bitmap.createScaledBitmap(foodMarker,35, 35, false);
 
-        latitude = business.getCoordinates().getLatitude();
-        longitude = business.getCoordinates().getLongitude();
-        LatLng currentBus = new LatLng(latitude, longitude);
-        Marker marker = mMap.addMarker(new MarkerOptions().
-                position(currentBus).
-                title(business.getName()).
-                snippet(business.getRating().toString() + " stars \n"
-                        + business.getLocation().getAddress1() + "\n" + business.getDistance() + " km away"
-                )
-        );
-        marker.setDraggable(true);
+        int size = highRatingBusinessList.size() > 10? 10: highRatingBusinessList.size();
+        for (int i = 0; i < size; i++){
+            Business business = highRatingBusinessList.get(i);
+            latitude = business.getCoordinates().getLatitude();
+            longitude = business.getCoordinates().getLongitude();
+            LatLng currentBus = new LatLng(latitude, longitude);
+            Marker marker = mMap.addMarker(new MarkerOptions().
+                    position(currentBus).
+                    title(business.getName()).
+                    icon(BitmapDescriptorFactory.fromBitmap(smallFoodMarker)).
+                    snippet(business.getRating().toString() + " stars" + " by " + business.getReviewCount().intValue() +
+                        " people " +  "    " + business.getDistance().intValue() + " km away")
+            );
+            marker.setDraggable(true);
+            if (i == 0){
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentBus , 11.0f) );
+            }
         }
-
     }
 
     @Override
@@ -395,7 +399,6 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(this, "Info window clicked",
                 Toast.LENGTH_LONG).show();
                 */
-
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Would you like to add " + marker.getTitle() + " to your agenda?");
