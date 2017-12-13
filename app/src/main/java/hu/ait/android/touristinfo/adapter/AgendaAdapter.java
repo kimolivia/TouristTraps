@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.UUID;
 
 import hu.ait.android.touristinfo.MainActivity;
 import hu.ait.android.touristinfo.R;
@@ -29,22 +30,26 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     private Realm realmSights;
     private List<Sights> sightsList;
 
-    public AgendaAdapter() {
-        sightsList = new ArrayList<Sights>();
-        for (int i = 0; i < 20; i++) {
-            sightsList.add(new Sights("Todo"+i, "16. 10. 2017", false));
-        }
-    }
-
-    /*
     public AgendaAdapter(Context context, Realm realmSights) {
-        //this.cities = cities;
+        sightsList = new ArrayList<Sights>();
         this.context = context;
         this.realmSights = realmSights;
     }
-    */
 
 
+    public void addSights(Sights sights){
+        realmSights.beginTransaction();
+
+        Sights newSights = realmSights.createObject(Sights.class, UUID.randomUUID().toString());
+        newSights.setName(sights.getName());
+        newSights.setRating(sights.getRating());
+
+        realmSights.commitTransaction();
+        
+        sightsList.add(newSights);
+        notifyItemInserted(sightsList.size());
+    }
+    
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext())
@@ -56,19 +61,18 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         Sights sightData = sightsList.get(position);
-        //holder.tvSight.setText("Get API name here");
 
-        /*
+
         holder.btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 removeSight(holder.getAdapterPosition());
             }
         });
-        */
 
-        holder.tvSight.setText("Tester");
 
+        holder.tvName.setText(sightData.getName());
+        holder.tvRating.setText(sightData.getRating().toString());
     }
 
     @Override
@@ -77,25 +81,29 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     }
 
     public void removeSight(int position) {
-        ((MainActivity)context).deleteSight(sightsList.get(position));
+        Sights toRemoveSight = sightsList.get(position);
+
+        realmSights.beginTransaction();
+        realmSights.where(Sights.class).equalTo("name",toRemoveSight.getName());
+        realmSights.commitTransaction();
+
         sightsList.remove(position);
         notifyItemRemoved(position);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView tvSight;
+        private TextView tvName;
+        private TextView tvRating;
         private FancyButton btnDelete;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
-            tvSight = itemView.findViewById(R.id.tvSight);
+            tvName = itemView.findViewById(R.id.tvName);
+            tvRating = itemView.findViewById(R.id.tvRating);
             btnDelete = itemView.findViewById(R.id.btnDelete);
         }
-
-
-
     }
 
     public void swapPlaces(int oldPosition, int newPosition) {
