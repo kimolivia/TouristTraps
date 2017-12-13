@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
     private List<Business>  highRatingBusinessList;
+    public List<Business> addedToAgendaList;
     private Retrofit retrofit;
     List<Sights> sightsResult;
     private double latitude;
@@ -280,7 +281,6 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(myToolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //myToolbar.setNavigationIcon(R.drawable.smallglobe);
         myToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -394,11 +394,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public void onInfoWindowClick(Marker marker) {
-        /*
-        Toast.makeText(this, "Info window clicked",
-                Toast.LENGTH_LONG).show();
-                */
+    public void onInfoWindowClick(final Marker marker) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Would you like to add " + marker.getTitle() + " to your agenda?");
@@ -408,6 +404,13 @@ public class MainActivity extends AppCompatActivity
                 "Add",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
+                        for(Business bus : highRatingBusinessList) {
+                            if (bus.getName().equals(marker.getTitle())) {
+
+                            }
+
+
+                        }
                         dialog.cancel();
                     }
                 });

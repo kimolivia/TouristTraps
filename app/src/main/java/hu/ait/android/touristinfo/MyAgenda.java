@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
 import java.util.ArrayList;
@@ -36,6 +37,8 @@ public class MyAgenda extends AppCompatActivity {
         setUpRecyclerView();
         setUpTouchHelper();
 
+        setupToolbar();
+
     }
 
     /*
@@ -66,9 +69,17 @@ public class MyAgenda extends AppCompatActivity {
         recyclerViewSights.setAdapter(agendaAdapter);
     }
 
+    private void setupToolbar() {
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+    }
+
     public Realm getRealm() {
         return ((MainApplication)getApplication()).getRealmSights();
     }
+
+
 
     /*
     public void deleteCity(City city) {
