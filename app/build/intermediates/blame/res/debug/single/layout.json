@@ -28,20 +28,20 @@
         "source": "/Users/oliviakim/.android/build-cache/9264b9cd6fcceac4673acfb9c364d57fcd9149d3/output/res/layout/place_autocomplete_fragment.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
-        "source": "/Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/res/layout/notification_template_big_media_custom.xml"
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/zhaozhaoxia/.android/build-cache/d3c5d589bec259705bf263e28ba8fa925cf16084/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/zhaozhaoxia/.android/build-cache/dfdb35afff4a310364fdfda31b8cd8727cb585b5/output/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",

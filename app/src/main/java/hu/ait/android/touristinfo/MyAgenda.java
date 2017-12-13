@@ -13,11 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import hu.ait.android.touristinfo.adapter.AgendaAdapter;
-<<<<<<< HEAD
-import hu.ait.android.touristinfo.data.businesses.Business;
-=======
 import hu.ait.android.touristinfo.data.Sights;
->>>>>>> cf7565e811890eb616f1f99d742c7b221f1ac8b9
 import hu.ait.android.touristinfo.touch.AgendaTouchHelperCallback;
 import io.realm.Realm;
 
@@ -60,12 +56,11 @@ public class MyAgenda extends AppCompatActivity {
     /*
     private void setUpRealmItems() {
         agendaResult = new ArrayList<>();
-
     }
     */
 
     private void setUpTouchHelper() {
-       AgendaTouchHelperCallback touchHelperCallback = new AgendaTouchHelperCallback(
+        AgendaTouchHelperCallback touchHelperCallback = new AgendaTouchHelperCallback(
                 agendaAdapter);
         ItemTouchHelper touchHelper = new ItemTouchHelper(touchHelperCallback);
         touchHelper.attachToRecyclerView(recyclerViewSight);
@@ -95,25 +90,4 @@ public class MyAgenda extends AppCompatActivity {
         return ((MainApplication)getApplication()).getRealmSights();
     }
 
-<<<<<<< HEAD
-
-    /*
-    public void deleteCity(City city) {
-        getRealm().beginTransaction();
-        city.deleteFromRealm();
-        getRealm().commitTransaction();
-    }
-    */
-
-    /*
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        ((MainApplication)getApplication()).closeRealm();
-    }
-    */
-
-
-=======
->>>>>>> cf7565e811890eb616f1f99d742c7b221f1ac8b9
 }
