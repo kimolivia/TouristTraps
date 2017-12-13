@@ -183,12 +183,14 @@ public class MainActivity extends AppCompatActivity
                     if (business.getRating() >= 4.4)
                         highRatingBusinessList.add(business);
                 }
+                /*)
                 TextView tv = findViewById(R.id.test);
                 if (businessList.size() != 0){
                     tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
                 } else {
                     tv.setText("Can't get current location");
                 }
+                */
             }
 
             @Override
@@ -305,7 +307,7 @@ public class MainActivity extends AppCompatActivity
                                 break;
                             case R.id.action_help:
                                 Toast.makeText(MainActivity.this,
-                                        "1"
+                                        "Search a city or drag the marker to get started!"
                                         ,
                                         Toast.LENGTH_LONG
                                 ).show();

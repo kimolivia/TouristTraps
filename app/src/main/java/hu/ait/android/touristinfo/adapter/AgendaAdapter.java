@@ -17,6 +17,7 @@ import hu.ait.android.touristinfo.MainActivity;
 import hu.ait.android.touristinfo.R;
 import hu.ait.android.touristinfo.data.Sights;
 import io.realm.Realm;
+import mehdi.sakout.fancybuttons.FancyButton;
 
 /**
  * Created by oliviakim on 12/5/17.
@@ -84,7 +85,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvSight;
-        private Button btnDelete;
+        private FancyButton btnDelete;
 
         public ViewHolder(View itemView) {
             super(itemView);
