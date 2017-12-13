@@ -1,4 +1,4 @@
-#Wed Dec 13 14:08:37 CET 2017
+#Wed Dec 13 17:17:01 CET 2017
 base.0=/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8d3d20db25202ef9005086e0beae36e9fd79158e
 renamed.1=classes.dex
 renamed.0=classes2.dex

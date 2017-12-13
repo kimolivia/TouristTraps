@@ -221,7 +221,7 @@ public class MainActivity extends AppCompatActivity
             marker.setDraggable(true);
             marker.setTag(business);
             if (i == 0){
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentBus , 11.0f) );
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentBus , 12.0f) );
             }
         }
     }
@@ -416,8 +416,6 @@ public class MainActivity extends AppCompatActivity
                                 onClickSight.setDone(false);
                                 addedToAgendaList.add(onClickSight);
                             }
-
-
                         }
                         dialog.cancel();
                     }

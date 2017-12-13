@@ -1,16 +1,19 @@
 package hu.ait.android.touristinfo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import hu.ait.android.touristinfo.adapter.AgendaAdapter;
+import hu.ait.android.touristinfo.data.Sights;
 import hu.ait.android.touristinfo.touch.AgendaTouchHelperCallback;
 import io.realm.Realm;
 
@@ -22,7 +25,8 @@ public class MyAgenda extends AppCompatActivity {
 
     private AgendaAdapter agendaAdapter;
     RecyclerView recyclerViewSight;
-    List<Integer> agendaResult;
+    private ArrayList<Sights> newSightsInAgenda;
+    private ArrayList<Sights> savedSightsInAgenda;
 
 
     @Override
@@ -30,15 +34,23 @@ public class MyAgenda extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.agenda_layout);
 
-        //((MainApplication) getApplication()).openRealm();
-
         //setUpRealmItems();
-
+        Intent intent = getIntent();
+        newSightsInAgenda = intent.getParcelableArrayListExtra("list");
+        savedSightsInAgenda = new ArrayList<>();
         setUpRecyclerView();
         setUpTouchHelper();
-
         setupToolbar();
+        addSightsToAgenda();
+    }
 
+    private void addSightsToAgenda() {
+        for (Sights sights: newSightsInAgenda){
+            if (!savedSightsInAgenda.contains(sights)){
+                savedSightsInAgenda.add(sights);
+                agendaAdapter.addSights(sights);
+            }
+        }
     }
 
     /*
@@ -58,7 +70,7 @@ public class MyAgenda extends AppCompatActivity {
     private void setUpRecyclerView() {
 
         RecyclerView recyclerViewSights = (RecyclerView) findViewById(R.id.recyclerViewSight);
-        agendaAdapter = new AgendaAdapter();
+        agendaAdapter = new AgendaAdapter(this, getRealm());
 
         recyclerViewSights.setLayoutManager(new LinearLayoutManager(this));
         recyclerViewSights.setHasFixedSize(true);
@@ -78,24 +90,5 @@ public class MyAgenda extends AppCompatActivity {
     public Realm getRealm() {
         return ((MainApplication)getApplication()).getRealmSights();
     }
-
-
-
-    /*
-    public void deleteCity(City city) {
-        getRealm().beginTransaction();
-        city.deleteFromRealm();
-        getRealm().commitTransaction();
-    }
-    */
-
-    /*
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        ((MainApplication)getApplication()).closeRealm();
-    }
-    */
-
 
 }

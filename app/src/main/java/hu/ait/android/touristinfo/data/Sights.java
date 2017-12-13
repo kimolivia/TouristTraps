@@ -14,9 +14,7 @@ public class Sights extends RealmObject implements Parcelable {
     @PrimaryKey
     private String sightsID;
 
-    public Sights() {
-
-    }
+    public Sights() {}
 
     private String name;
     private Double rating;
@@ -60,7 +58,7 @@ public class Sights extends RealmObject implements Parcelable {
         done = in.readByte() != 0;
     }
 
-    public static final Creator<Sights> CREATOR = new Creator<Sights>() {
+    public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
         @Override
         public Sights createFromParcel(Parcel in) {
             return new Sights(in);
