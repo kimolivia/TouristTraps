@@ -20,7 +20,7 @@
 
         <TextView
             android:id="@+id/tvName"
-            android:layout_width="wrap_content"
+            android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:paddingLeft="5dp"
             android:textColor="#0c3c60"
@@ -38,6 +38,15 @@
             android:paddingLeft="5dp"
             android:layout_below="@+id/tvName"
             />
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textSize="13sp"
+            android:layout_toLeftOf="@+id/tvRating"
+            android:layout_alignTop="@+id/tvRating"/>
 
         <mehdi.sakout.fancybuttons.FancyButton
             android:id="@+id/btnDelete"

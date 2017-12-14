@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity
     private TouristLocationManager touristLocationManager;
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
-    private List<Business>  highRatingBusinessList;
+    private List<Business> highRatingBusinessList;
     public ArrayList<Sights> addedToAgendaList;
     private Retrofit retrofit;
     List<Sights> sightsResult;
@@ -83,9 +83,8 @@ public class MainActivity extends AppCompatActivity
         ((MainApplication) getApplication()).openRealm();
 
         touristLocationManager = new TouristLocationManager(this,this);
-        highRatingBusinessList = new ArrayList<>();
         addedToAgendaList = new ArrayList<>();
-
+        highRatingBusinessList = new ArrayList<>();
 
         requestNeededPermission();
 
@@ -105,7 +104,9 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 String cityName = ((EditText) findViewById(R.id.etSearch)).getText().toString();
                 businessesCallWithCityNameFood(retrofit, cityName);
-
+                businessesCallWithCityNameMuseum(retrofit, cityName);
+                businessesCallWithCityNameBar(retrofit, cityName);
+                businessesCallWithCityNameCafe(retrofit, cityName);
                 /*
                 try {
                     if (etSearch == null) {
@@ -127,6 +128,7 @@ public class MainActivity extends AppCompatActivity
 
     private void businessesCallWithCityNameFood(Retrofit retrofit, String cityName) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+        final List<Business> highRatingFood = new ArrayList<>();
         Call<BusinessesResult> call = businessesAPI.getBusinessesResult("food", cityName);
         call.enqueue(new Callback<BusinessesResult>() {
 
@@ -134,10 +136,12 @@ public class MainActivity extends AppCompatActivity
             public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
                 List<Business> businessList = response.body().getBusinesses();
                 for (Business business: businessList){
-                    if (business.getRating() >= 4.0)
+                    if (business.getRating() >= 4.0 && highRatingFood.size() <= 10) {
                         highRatingBusinessList.add(business);
+                        highRatingFood.add(business);
+                    }
                 }
-                placeFoodMarkers(highRatingBusinessList);
+                placeMarkers(highRatingFood,"food");
             }
 
             @Override
@@ -147,33 +151,84 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
-//    private void businessesCallWithCityNameMuseum(Retrofit retrofit, String cityName) {
-//        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-//        //if category ==
-//        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("museum", cityName);
-//        call.enqueue(new Callback<BusinessesResult>() {
-//
-//            @Override
-//            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
-//                List<Business> businessList = response.body().getBusinesses();
-//                for (Business business: businessList){
-//                    if (business.getRating() >= 4.4)
-//                        highRatingBusinessList.add(business);
-//                }
-//                TextView tv = findViewById(R.id.test);
-//                tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
-//            }
-//
-//            @Override
-//            public void onFailure(Call<BusinessesResult> call, Throwable t) {
-//                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
-//            }
-//        });
-//    }
+    private void businessesCallWithCityNameCafe(Retrofit retrofit, String cityName) {
+        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+        final List<Business> highRatingCafe = new ArrayList<>();
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("cafe", cityName);
+        call.enqueue(new Callback<BusinessesResult>() {
+
+            @Override
+            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                List<Business> businessList = response.body().getBusinesses();
+                for (Business business: businessList){
+                    if (business.getRating() >= 4.0 && highRatingCafe.size() <= 10) {
+                        highRatingBusinessList.add(business);
+                        highRatingCafe.add(business);
+                    }
+                }
+                placeMarkers(highRatingCafe,"cafe");
+            }
+
+            @Override
+            public void onFailure(Call<BusinessesResult> call, Throwable t) {
+                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+            }
+        });
+    }
+
+
+    private void businessesCallWithCityNameMuseum(Retrofit retrofit, String cityName) {
+        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+        final List<Business> highRatingMuseum = new ArrayList<>();
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("museum", cityName);
+        call.enqueue(new Callback<BusinessesResult>() {
+
+            @Override
+            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                List<Business> businessList = response.body().getBusinesses();
+                for (Business business: businessList){
+                    if (business.getRating() >= 4.0 && highRatingMuseum.size() <= 10) {
+                        highRatingBusinessList.add(business);
+                        highRatingMuseum.add(business);
+                    }
+                }
+                placeMarkers(highRatingMuseum, "museum");
+            }
+
+            @Override
+            public void onFailure(Call<BusinessesResult> call, Throwable t) {
+                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+            }
+        });
+    }
+
+    private void businessesCallWithCityNameBar(Retrofit retrofit, String cityName) {
+        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
+        final List<Business> highRatingBar = new ArrayList<>();
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("bar", cityName);
+        call.enqueue(new Callback<BusinessesResult>() {
+
+            @Override
+            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
+                List<Business> businessList = response.body().getBusinesses();
+                for (Business business: businessList){
+                    if (business.getRating() >= 4.0 && highRatingBar.size() <= 10) {
+                        highRatingBusinessList.add(business);
+                        highRatingBar.add(business);
+                    }
+                }
+                placeMarkers(highRatingBar, "bar");
+            }
+
+            @Override
+            public void onFailure(Call<BusinessesResult> call, Throwable t) {
+                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+            }
+        });
+    }
 
     private void businessesCallWithCoord(Retrofit retrofit, Double latitude, Double longitude) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-        //if category ==
         Call<BusinessesResult> call = businessesAPI.getBusinessesResultCoord("food", latitude, longitude, 100);
         call.enqueue(new Callback<BusinessesResult>() {
 
@@ -193,29 +248,38 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
-    public void placeFoodMarkers(List<Business> highRatingBusinessList) {
-        Bitmap foodMarker = BitmapFactory.decodeResource(getResources(),R.drawable.food);
-        Bitmap smallFoodMarker = Bitmap.createScaledBitmap(foodMarker,35, 35, false);
+    public void placeMarkers(List<Business> highRatingBusinessList, String category) {
+        Bitmap markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.food);
+        if (category == "museum")
+        markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.museum);
+        if (category == "bar")
+            markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.bar);
+        if (category == "cafe")
+            markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.cafe);
 
-        int size = highRatingBusinessList.size() > 10? 10: highRatingBusinessList.size();
-        for (int i = 0; i < size; i++){
-            Business business = highRatingBusinessList.get(i);
+        Bitmap smallMarker = Bitmap.createScaledBitmap(markerImage,85, 85, false);
+        if (category == "food") {
+            Business markerBusiness = highRatingBusinessList.get(0);
+            latitude = markerBusiness.getCoordinates().getLatitude();
+            longitude = markerBusiness.getCoordinates().getLongitude();
+            LatLng markerBusinessL = new LatLng(latitude, longitude);
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(markerBusinessL, 12.0f));
+        }
+
+        for (Business business: highRatingBusinessList){
             latitude = business.getCoordinates().getLatitude();
             longitude = business.getCoordinates().getLongitude();
             LatLng currentBus = new LatLng(latitude, longitude);
             Marker marker = mMap.addMarker(new MarkerOptions().
                     position(currentBus).
                     title(business.getName()).
-                    icon(BitmapDescriptorFactory.fromBitmap(smallFoodMarker)).
+                    icon(BitmapDescriptorFactory.fromBitmap(smallMarker)).
                     snippet(business.getRating().toString() + " " + getString(R.string.stars) + " " + getString(R.string.by) + " " +
                             business.getReviewCount().intValue() + " " +
                         getString(R.string.people) +  "    " + business.getDistance().intValue() + " " + getString(R.string.kmaway))
             );
             marker.setDraggable(true);
             marker.setTag(business);
-            if (i == 0){
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentBus , 12.0f) );
-            }
         }
     }
 
@@ -414,12 +478,11 @@ public class MainActivity extends AppCompatActivity
                                 Sights onClickSight = new Sights();
                                 onClickSight.setName(business.getName());
                                 onClickSight.setRating(business.getRating());
+//                                onClickSight.setDistance(business.getDistance());
                                 onClickSight.setDone(false);
                                 addedToAgendaList.add(onClickSight);
 
                             }
-
-
                         }
                         dialog.cancel();
                     }

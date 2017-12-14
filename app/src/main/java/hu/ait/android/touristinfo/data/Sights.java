@@ -18,15 +18,24 @@ public class Sights extends RealmObject implements Parcelable {
 
     private String name;
     private Double rating;
+    private Double distance;
     private boolean done;
 
-    public Sights(String name, Double rating, boolean done) {
+    public Sights(String name, Double rating, Double distance, boolean done) {
         this.name = name;
         this.rating = rating;
+        this.distance = distance;
         this.done = done;
 
     }
 
+    public Double getDistance() {
+        return distance;
+    }
+
+    public void setDistance(Double distance) {
+        this.distance = distance;
+    }
 //    public String getSightsID() {
 //        return sightsID;
 //    }
@@ -59,6 +68,7 @@ public class Sights extends RealmObject implements Parcelable {
 //        sightsID = in.readString();
         name = in.readString();
         rating = in.readDouble();
+//        distance = in.readDouble();
         done = in.readByte() != 0;
     }
 
@@ -84,6 +94,7 @@ public class Sights extends RealmObject implements Parcelable {
 //        parcel.writeString(sightsID);
         parcel.writeString(name);
         parcel.writeDouble(rating);
+//        parcel.writeDouble(distance);
         parcel.writeByte((byte) (done ? 1 : 0));
     }
 }

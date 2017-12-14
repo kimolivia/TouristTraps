@@ -76,6 +76,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
 
         holder.tvName.setText(sightData.getName());
         holder.tvRating.setText(sightData.getRating().toString());
+//        holder.tvDistance.setText(sightData.getDistance().toString());
     }
 
     @Override
@@ -101,6 +102,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
 
         private TextView tvName;
         private TextView tvRating;
+        private TextView tvDistance;
         private FancyButton btnDelete;
 
         public ViewHolder(View itemView) {
@@ -108,6 +110,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
 
             tvName = itemView.findViewById(R.id.tvName);
             tvRating = itemView.findViewById(R.id.tvRating);
+            tvDistance = itemView.findViewById(R.id.tvDistance);
             btnDelete = itemView.findViewById(R.id.btnDelete);
         }
     }
