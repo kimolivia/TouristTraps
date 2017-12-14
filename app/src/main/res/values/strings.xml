@@ -27,4 +27,8 @@
     <string name="see_my_agenda">See My Agenda</string>
     <string name="help">Help</string>
     <string name="about">About</string>
+    <string name="cafe">cafe</string>
+    <string name="food">food</string>
+    <string name="museum">museum</string>
+    <string name="bar">bar</string>
 </resources>

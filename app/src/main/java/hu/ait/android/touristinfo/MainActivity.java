@@ -64,6 +64,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity
         implements TouristLocationManager.NewLocationListener, OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
+    public static final String RETROFIT_CALLON_FAILURE = "retrofitCallonFailure";
     private TouristLocationManager touristLocationManager;
     private GoogleMap mMap;
     private DrawerLayout drawerLayout;
@@ -107,17 +108,8 @@ public class MainActivity extends AppCompatActivity
                 businessesCallWithCityNameMuseum(retrofit, cityName);
                 businessesCallWithCityNameBar(retrofit, cityName);
                 businessesCallWithCityNameCafe(retrofit, cityName);
-                /*
-                try {
-                    if (etSearch == null) {
-                        etSearch.setError(getString(R.string.empty_error));
-                    } else {
-                        businessesCallWithCityNameFood(retrofit, cityName);
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                */
+
+
             }
 
 
@@ -129,7 +121,7 @@ public class MainActivity extends AppCompatActivity
     private void businessesCallWithCityNameFood(Retrofit retrofit, String cityName) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
         final List<Business> highRatingFood = new ArrayList<>();
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("food", cityName);
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult(getString(R.string.food), cityName);
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
@@ -141,12 +133,12 @@ public class MainActivity extends AppCompatActivity
                         highRatingFood.add(business);
                     }
                 }
-                placeMarkers(highRatingFood,"food");
+                placeMarkers(highRatingFood,getString(R.string.food));
             }
 
             @Override
             public void onFailure(Call<BusinessesResult> call, Throwable t) {
-                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+                Log.e(RETROFIT_CALLON_FAILURE,Log.getStackTraceString(t));
             }
         });
     }
@@ -166,12 +158,12 @@ public class MainActivity extends AppCompatActivity
                         highRatingCafe.add(business);
                     }
                 }
-                placeMarkers(highRatingCafe,"cafe");
+                placeMarkers(highRatingCafe,getString(R.string.cafe));
             }
 
             @Override
             public void onFailure(Call<BusinessesResult> call, Throwable t) {
-                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+                Log.e(RETROFIT_CALLON_FAILURE,Log.getStackTraceString(t));
             }
         });
     }
@@ -180,7 +172,7 @@ public class MainActivity extends AppCompatActivity
     private void businessesCallWithCityNameMuseum(Retrofit retrofit, String cityName) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
         final List<Business> highRatingMuseum = new ArrayList<>();
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("museum", cityName);
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult(getString(R.string.museum), cityName);
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
@@ -192,12 +184,12 @@ public class MainActivity extends AppCompatActivity
                         highRatingMuseum.add(business);
                     }
                 }
-                placeMarkers(highRatingMuseum, "museum");
+                placeMarkers(highRatingMuseum, getString(R.string.museum));
             }
 
             @Override
             public void onFailure(Call<BusinessesResult> call, Throwable t) {
-                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+                Log.e(RETROFIT_CALLON_FAILURE,Log.getStackTraceString(t));
             }
         });
     }
@@ -205,7 +197,7 @@ public class MainActivity extends AppCompatActivity
     private void businessesCallWithCityNameBar(Retrofit retrofit, String cityName) {
         BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
         final List<Business> highRatingBar = new ArrayList<>();
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResult("bar", cityName);
+        Call<BusinessesResult> call = businessesAPI.getBusinessesResult(getString(R.string.bar), cityName);
         call.enqueue(new Callback<BusinessesResult>() {
 
             @Override
@@ -217,48 +209,28 @@ public class MainActivity extends AppCompatActivity
                         highRatingBar.add(business);
                     }
                 }
-                placeMarkers(highRatingBar, "bar");
+                placeMarkers(highRatingBar, getString(R.string.bar));
             }
 
             @Override
             public void onFailure(Call<BusinessesResult> call, Throwable t) {
-                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
+                Log.e(RETROFIT_CALLON_FAILURE,Log.getStackTraceString(t));
             }
         });
     }
 
-    private void businessesCallWithCoord(Retrofit retrofit, Double latitude, Double longitude) {
-        BusinessesAPI businessesAPI = retrofit.create(BusinessesAPI.class);
-        Call<BusinessesResult> call = businessesAPI.getBusinessesResultCoord("food", latitude, longitude, 100);
-        call.enqueue(new Callback<BusinessesResult>() {
-
-            @Override
-            public void onResponse(Call<BusinessesResult> call, Response<BusinessesResult> response) {
-                List<Business> businessList = response.body().getBusinesses();
-                for (Business business: businessList){
-                    if (business.getRating() >= 4.0)
-                        highRatingBusinessList.add(business);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<BusinessesResult> call, Throwable t) {
-                Log.e("retrofitCallonFailure",Log.getStackTraceString(t));
-            }
-        });
-    }
 
     public void placeMarkers(List<Business> highRatingBusinessList, String category) {
         Bitmap markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.food);
-        if (category == "museum")
+        if (category == getString(R.string.museum))
         markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.museum);
-        if (category == "bar")
+        if (category == getString(R.string.bar))
             markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.bar);
-        if (category == "cafe")
+        if (category == getString(R.string.cafe))
             markerImage = BitmapFactory.decodeResource(getResources(),R.drawable.cafe);
 
         Bitmap smallMarker = Bitmap.createScaledBitmap(markerImage,85, 85, false);
-        if (category == "food") {
+        if (category == getString(R.string.food)) {
             Business markerBusiness = highRatingBusinessList.get(0);
             latitude = markerBusiness.getCoordinates().getLatitude();
             longitude = markerBusiness.getCoordinates().getLongitude();
@@ -266,6 +238,10 @@ public class MainActivity extends AppCompatActivity
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(markerBusinessL, 12.0f));
         }
 
+        setUpMarkerAtLocation(highRatingBusinessList, smallMarker);
+    }
+
+    private void setUpMarkerAtLocation(List<Business> highRatingBusinessList, Bitmap smallMarker) {
         for (Business business: highRatingBusinessList){
             latitude = business.getCoordinates().getLatitude();
             longitude = business.getCoordinates().getLongitude();
@@ -295,9 +271,11 @@ public class MainActivity extends AppCompatActivity
 
         mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 6.0f) );
 
-        //businessesCallWithCoord(retrofit, location.getLatitude(), location.getLongitude());
-
         marker.setDraggable(true);
+        markerDragListener();
+    }
+
+    private void markerDragListener() {
         mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
             @Override
             public void onMarkerDragStart(Marker marker) {
@@ -331,13 +309,12 @@ public class MainActivity extends AppCompatActivity
                                         cityName, Toast.LENGTH_SHORT).show();
                 }
                 mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
-                //ask if user wants the current location being draged to, then api call with coordinate
             }
         });
     }
 
     private void setUpToolBar() {
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -350,12 +327,16 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void setUpDrawer() {
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        drawerLayout = findViewById(R.id.drawerLayout);
         NavigationView navigationView
-                = (NavigationView) findViewById(R.id.navigationView);
+                = findViewById(R.id.navigationView);
         navigationView.bringToFront();
         navigationView.setItemIconTintList(null);
 
+        navDrawerItemListener(navigationView);
+    }
+
+    private void navDrawerItemListener(NavigationView navigationView) {
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
@@ -363,17 +344,9 @@ public class MainActivity extends AppCompatActivity
                         menuItem.setChecked(true);
                         switch (menuItem.getItemId()) {
                             case R.id.action_seeAgenda:
-//                                for(Sights site : addedToAgendaList) {
-                                    //if (!site.isManaged()) {
-//                                    if(getRealm().where(Sights.class).equalTo("sightsID", site.isManaged()) == null) {
-//                                        addedToAgendaList.remove(site);
-//                                    }
-                                   // addedToAgendaList.clear();
-//                                }
                                 Intent intent = new Intent(MainActivity.this, MyAgenda.class);
                                 intent.putParcelableArrayListExtra("list", addedToAgendaList);
                                 startActivity(intent);
-                                //addedToAgendaList.clear();
 
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 break;
@@ -409,7 +382,6 @@ public class MainActivity extends AppCompatActivity
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                     101);
         } else {
-            // start our job
             touristLocationManager.startLocationMonitoring();
         }
     }
@@ -422,7 +394,6 @@ public class MainActivity extends AppCompatActivity
 
                 Toast.makeText(this, R.string.permissiongranted, Toast.LENGTH_SHORT).show();
 
-                // start our job
                 touristLocationManager.startLocationMonitoring();
             } else {
                 Toast.makeText(this, R.string.notgranted, Toast.LENGTH_SHORT).show();
@@ -430,21 +401,9 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    private void setUpRealmItems() {
-        RealmResults<Sights> allCities = getRealm().where(Sights.class).findAll();
-        Sights itemsArray[] = new Sights[allCities.size()];
-        sightsResult = new ArrayList<Sights>(Arrays.asList(allCities.toArray(itemsArray)));
-    }
 
     public Realm getRealm() {
         return ((MainApplication) getApplication()).getRealmSights();
-    }
-
-    public void deleteSight(Sights sight) {
-        getRealm().beginTransaction();
-        sight.deleteFromRealm();
-        getRealm().commitTransaction();
-
     }
 
     @Override
@@ -463,7 +422,6 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onInfoWindowClick(final Marker marker) {
-
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage(getString(R.string.questionadd) + " " + marker.getTitle() + " " + getString(R.string.to_your_agenda));
         builder.setCancelable(true);
@@ -478,7 +436,6 @@ public class MainActivity extends AppCompatActivity
                                 Sights onClickSight = new Sights();
                                 onClickSight.setName(business.getName());
                                 onClickSight.setRating(business.getRating());
-//                                onClickSight.setDistance(business.getDistance());
                                 onClickSight.setDone(false);
                                 addedToAgendaList.add(onClickSight);
 
@@ -499,7 +456,4 @@ public class MainActivity extends AppCompatActivity
         AlertDialog alert = builder.create();
         alert.show();
     }
-
-
-
 }

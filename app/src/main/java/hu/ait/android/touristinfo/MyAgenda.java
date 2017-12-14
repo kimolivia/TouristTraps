@@ -36,7 +36,6 @@ public class MyAgenda extends AppCompatActivity {
 
         ((MainApplication) getApplication()).openRealm();
 
-        //setUpRealmItems();
         Intent intent = getIntent();
         newSightsInAgenda = intent.getParcelableArrayListExtra("list");
         savedSightsInAgenda = new ArrayList<>();
@@ -70,8 +69,7 @@ public class MyAgenda extends AppCompatActivity {
 
         recyclerViewSights.setLayoutManager(new LinearLayoutManager(this));
         recyclerViewSights.setHasFixedSize(true);
-        //agendaAdapter = new AgendaAdapter(this, ((MainApplication)getApplication()).getRealmSights() );
-        // agendaResult, add as first parameter
+
         recyclerViewSights.setLayoutManager(new LinearLayoutManager(this));
 
         recyclerViewSights.setAdapter(agendaAdapter);

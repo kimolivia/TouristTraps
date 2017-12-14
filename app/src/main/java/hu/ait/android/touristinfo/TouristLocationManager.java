@@ -33,11 +33,6 @@ public class TouristLocationManager implements LocationListener{
                 120, 1000, this);
 
 
-
-        //Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-
-
-        // DOES NOT WORK ON EMULATOR
         locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
                 120, 1000, this);
     }
