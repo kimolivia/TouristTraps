@@ -11,8 +11,8 @@ import io.realm.annotations.PrimaryKey;
  */
 
 public class Sights extends RealmObject implements Parcelable {
-    @PrimaryKey
-    private String sightsID;
+//    @PrimaryKey
+//    private String sightsID;
 
     public Sights() {}
 
@@ -26,6 +26,10 @@ public class Sights extends RealmObject implements Parcelable {
         this.done = done;
 
     }
+
+//    public String getSightsID() {
+//        return sightsID;
+//    }
 
     public String getName() {
         return name;
@@ -52,7 +56,7 @@ public class Sights extends RealmObject implements Parcelable {
     }
 
     protected Sights(Parcel in) {
-        sightsID = in.readString();
+//        sightsID = in.readString();
         name = in.readString();
         rating = in.readDouble();
         done = in.readByte() != 0;
@@ -77,7 +81,7 @@ public class Sights extends RealmObject implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeString(sightsID);
+//        parcel.writeString(sightsID);
         parcel.writeString(name);
         parcel.writeDouble(rating);
         parcel.writeByte((byte) (done ? 1 : 0));

@@ -8,4 +8,23 @@
     <string name="x">X</string>
     <string name="empty_error">This field cannot be empty</string>
     <string name="my_agenda">My Agenda</string>
+    <string name="questionadd">Would you like to add</string>
+    <string name="to_your_agenda">to your agenda?</string>
+    <string name="add">Add</string>
+    <string name="negative">Cancel</string>
+    <string name="permissiongranted">Permission granted</string>
+    <string name="notgranted">Permission not granted :(</string>
+    <string name="help_msg">Search a city or drag the marker to get started!</string>
+    <string name="set_loc_to">You set location to:</string>
+    <string name="current_location">Current Location</string>
+    <string name="dragmsg">Drag the marker to the city you want to go</string>
+    <string name="stars">stars</string>
+    <string name="by">by</string>
+    <string name="people">people</string>
+    <string name="kmaway">km away</string>
+    <string name="go_msg">Go</string>
+    <string name="delete">Delete</string>
+    <string name="see_my_agenda">See My Agenda</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
 </resources>

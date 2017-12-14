@@ -41,7 +41,7 @@
 
         <mehdi.sakout.fancybuttons.FancyButton
             android:id="@+id/btnDelete"
-            fancy:fb_text="Delete"
+            fancy:fb_text="@string/delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"

@@ -71,7 +71,7 @@
 
             <mehdi.sakout.fancybuttons.FancyButton
                 android:id="@+id/btnEnter"
-                fancy:fb_text="Go"
+                fancy:fb_text="@string/go_msg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"

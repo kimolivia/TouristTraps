@@ -4,12 +4,12 @@
         "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/anim/abc_fade_in.xml"
-    },
-    {
         "merged": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/build/intermediates/res/merged/debug/anim/splash_anim.xml",
         "source": "/Users/zhaozhaoxia/Desktop/TouristTraps/app/src/main/res/anim/splash_anim.xml"
+    },
+    {
+        "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/oliviakim/.android/build-cache/27e5084408c249c56f8281085ab788dc0bff0782/output/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Users/oliviakim/Documents/TouristInfo/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",

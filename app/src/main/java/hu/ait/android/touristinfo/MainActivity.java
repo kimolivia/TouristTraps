@@ -184,14 +184,6 @@ public class MainActivity extends AppCompatActivity
                     if (business.getRating() >= 4.0)
                         highRatingBusinessList.add(business);
                 }
-                /*)
-                TextView tv = findViewById(R.id.test);
-                if (businessList.size() != 0){
-                    tv.setText(String.valueOf(highRatingBusinessList.size())+highRatingBusinessList.get(0).getName());
-                } else {
-                    tv.setText("Can't get current location");
-                }
-                */
             }
 
             @Override
@@ -215,8 +207,9 @@ public class MainActivity extends AppCompatActivity
                     position(currentBus).
                     title(business.getName()).
                     icon(BitmapDescriptorFactory.fromBitmap(smallFoodMarker)).
-                    snippet(business.getRating().toString() + " stars" + " by " + business.getReviewCount().intValue() +
-                        " people " +  "    " + business.getDistance().intValue() + " km away")
+                    snippet(business.getRating().toString() + " " + getString(R.string.stars) + " " + getString(R.string.by) + " " +
+                            business.getReviewCount().intValue() + " " +
+                        getString(R.string.people) +  "    " + business.getDistance().intValue() + " " + getString(R.string.kmaway))
             );
             marker.setDraggable(true);
             marker.setTag(business);
@@ -232,8 +225,8 @@ public class MainActivity extends AppCompatActivity
         Marker marker =
                 mMap.addMarker(new MarkerOptions()
                         .position(currentLocation)
-                        .title("Current Location")
-                        .snippet("Drag the marker to the city you want to go")
+                        .title(getString(R.string.current_location))
+                        .snippet(getString(R.string.dragmsg))
                 );
 
         mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(currentLocation , 6.0f) );
@@ -270,7 +263,7 @@ public class MainActivity extends AppCompatActivity
                         cityName = addresses.get(0).getSubAdminArea();
                     if (cityName != "")
                         Toast.makeText(MainActivity.this,
-                                "You set location to: " +
+                                getString(R.string.set_loc_to) +
                                         cityName, Toast.LENGTH_SHORT).show();
                 }
                 mMap.animateCamera(CameraUpdateFactory.newLatLng(dragToLocation));
@@ -306,15 +299,23 @@ public class MainActivity extends AppCompatActivity
                         menuItem.setChecked(true);
                         switch (menuItem.getItemId()) {
                             case R.id.action_seeAgenda:
+//                                for(Sights site : addedToAgendaList) {
+                                    //if (!site.isManaged()) {
+//                                    if(getRealm().where(Sights.class).equalTo("sightsID", site.isManaged()) == null) {
+//                                        addedToAgendaList.remove(site);
+//                                    }
+                                   // addedToAgendaList.clear();
+//                                }
                                 Intent intent = new Intent(MainActivity.this, MyAgenda.class);
                                 intent.putParcelableArrayListExtra("list", addedToAgendaList);
                                 startActivity(intent);
+                                //addedToAgendaList.clear();
 
                                 drawerLayout.closeDrawer(GravityCompat.START);
                                 break;
                             case R.id.action_help:
                                 Toast.makeText(MainActivity.this,
-                                        "Search a city or drag the marker to get started!"
+                                        R.string.help_msg
                                         ,
                                         Toast.LENGTH_LONG
                                 ).show();
@@ -355,12 +356,12 @@ public class MainActivity extends AppCompatActivity
             if (grantResults.length > 0 &&
                     grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-                Toast.makeText(this, "Permission granted", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.permissiongranted, Toast.LENGTH_SHORT).show();
 
                 // start our job
                 touristLocationManager.startLocationMonitoring();
             } else {
-                Toast.makeText(this, "Permission not granted :(", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.notgranted, Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -400,11 +401,11 @@ public class MainActivity extends AppCompatActivity
     public void onInfoWindowClick(final Marker marker) {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Would you like to add " + marker.getTitle() + " to your agenda?");
+        builder.setMessage(getString(R.string.questionadd) + " " + marker.getTitle() + " " + getString(R.string.to_your_agenda));
         builder.setCancelable(true);
 
         builder.setPositiveButton(
-                "Add",
+                R.string.add,
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         for(Business bus : highRatingBusinessList) {
@@ -415,14 +416,17 @@ public class MainActivity extends AppCompatActivity
                                 onClickSight.setRating(business.getRating());
                                 onClickSight.setDone(false);
                                 addedToAgendaList.add(onClickSight);
+
                             }
+
+
                         }
                         dialog.cancel();
                     }
                 });
 
         builder.setNegativeButton(
-                "Cancel",
+                R.string.negative,
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.cancel();

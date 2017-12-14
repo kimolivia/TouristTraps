@@ -34,6 +34,8 @@ public class MyAgenda extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.agenda_layout);
 
+        ((MainApplication) getApplication()).openRealm();
+
         //setUpRealmItems();
         Intent intent = getIntent();
         newSightsInAgenda = intent.getParcelableArrayListExtra("list");
@@ -53,11 +55,6 @@ public class MyAgenda extends AppCompatActivity {
         }
     }
 
-    /*
-    private void setUpRealmItems() {
-        agendaResult = new ArrayList<>();
-    }
-    */
 
     private void setUpTouchHelper() {
         AgendaTouchHelperCallback touchHelperCallback = new AgendaTouchHelperCallback(
@@ -90,4 +87,10 @@ public class MyAgenda extends AppCompatActivity {
         return ((MainApplication)getApplication()).getRealmSights();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        ((MainApplication)getApplication()).closeRealm();
+
+    }
 }

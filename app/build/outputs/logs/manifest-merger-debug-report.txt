@@ -139,7 +139,6 @@ ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.x
 		ADDED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml:39:13-37
 uses-sdk
 INJECTED from /Users/oliviakim/Documents/TouristInfo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.1] /Users/oliviakim/.android/build-cache/842b356e9afe47ba5237244b4ce455b17b6765bd/output/AndroidManifest.xml:18:5-42
 MERGED from [io.realm:realm-android-library:3.0.0] /Users/oliviakim/.android/build-cache/0cf4f11f1960c32fd6715e16190f49c5d436f1df/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/oliviakim/.android/build-cache/ce48d3b8c96eb97d6e32be67c35abb2741054145/output/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/oliviakim/.android/build-cache/7c3a99e3b68320a59d95adf32f4112c48b360d42/output/AndroidManifest.xml:5:5-7:41

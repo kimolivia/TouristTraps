@@ -40,7 +40,8 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
     public void addSights(Sights sights){
         realmSights.beginTransaction();
 
-        Sights newSights = realmSights.createObject(Sights.class, UUID.randomUUID().toString());
+        Sights newSights = realmSights.createObject(Sights.class);
+        //Sights newSights = realmSights.createObject(Sights.class, UUID.randomUUID().toString());
         newSights.setName(sights.getName());
         newSights.setRating(sights.getRating());
 
@@ -48,6 +49,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
         
         sightsList.add(newSights);
         notifyItemInserted(sightsList.size());
+        notifyDataSetChanged();
     }
     
     @Override
@@ -67,6 +69,7 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
             @Override
             public void onClick(View view) {
                 removeSight(holder.getAdapterPosition());
+
             }
         });
 
@@ -84,11 +87,14 @@ public class AgendaAdapter extends RecyclerView.Adapter<AgendaAdapter.ViewHolder
         Sights toRemoveSight = sightsList.get(position);
 
         realmSights.beginTransaction();
-        realmSights.where(Sights.class).equalTo("name",toRemoveSight.getName());
+//        realmSights.where(Sights.class).equalTo("sightsID",toRemoveSight.getSightsID());
+        toRemoveSight.deleteFromRealm();
+//        realmSights.deleteAll();
         realmSights.commitTransaction();
 
         sightsList.remove(position);
         notifyItemRemoved(position);
+        notifyDataSetChanged();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
