@@ -24,5 +24,7 @@ Once the app is activated, the map fragment shows the user's current location an
 * Megan Zhao
 
 ## App Demo
-<img src="img-demo/mobile1.png" width="48px" height="24px">
+<img src="img-demo/mobile1.png" width="144px" height="300px">
+<img src="img-demo/mobile2.png" width="144px" height="300px">
+<img src="img-demo/mobile3.png" width="144px" height="300px">
 
