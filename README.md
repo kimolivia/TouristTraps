@@ -23,7 +23,7 @@ Once the app is activated, the map fragment shows the user's current location an
 * Olivia Kim
 * Megan Zhao
 
-<!-- ## App Demo
-![Alt text](img-demo/img1.png?raw=true "Title")
-![Alt text](img-demo/img2.png?raw=true "Title")
-![Alt text](img-demo/img3.png?raw=true "Title") -->
+## App Demo
+![Alt text](img-demo/mobile1.png?raw=true "Title")
+![Alt text](img-demo/mobile2.png?raw=true "Title")
+![Alt text](img-demo/mobile3.png?raw=true "Title")
